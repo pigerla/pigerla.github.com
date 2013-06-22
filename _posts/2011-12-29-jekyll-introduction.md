@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
+category : 教程
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags : [jekyll初学介绍, jekyll使用指南]
 ---
 {% include JB/setup %}
 
@@ -20,7 +20,7 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
-
+<!--break-->
 
 ### What does Jekyll Do?
 
