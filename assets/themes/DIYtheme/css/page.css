@@ -1,0 +1,90 @@
+/* 全局样式 */
+.post {
+	display: inline-block;
+
+	/* 每篇文章的下面的分界线 */
+	border-bottom: 1px solid silver; 
+	/* 分界线上下预留一些空间 */
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+/* “继续阅读”的样式 */
+.post a {
+	font-family: "微软雅黑", "Open Sans","Ubuntu", Helvetica, Arial, sans-serif;
+	color: #21759b; 
+}
+/* “继续阅读” 鼠标经过的样式 */
+.post a:hover {
+	text-decoration: underline;
+	color: rgb(43, 155, 12);
+}
+
+/* 文章左侧的时间 */
+.post-left {
+	width: 75px;
+	float: left;
+	color: rgb(206, 206, 206);
+	padding: 4px 10px 0px 0px;
+	margin-right: 21px;
+	border-right: 2px solid rgb(206, 206, 206);
+	text-align: right;
+}
+/* 时间被鼠标经过的样式 */
+.post-left:hover {
+	color: #21759b;
+}
+/* 文章左侧的“日”期 */
+.post-date {
+	padding-top: 10px;
+	font-family: "CabinBold",Arial,sans;
+	font-size: 400%;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: -2px;
+}
+
+/* 文章左侧的“月” “年” 样式 */
+div.post-left div.post-date span {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+/* 文章右侧样式 */
+.post-right {
+	float: left;
+	width: 38em;
+	margin: 0;
+	position: relative;
+}
+/* 文章标题样式 */
+#post-title {
+	color: rgb(43, 155, 12);
+	margin: 0px 0px 9px;
+	padding: 0px;
+	font-family: 'CabinRegular',Arial;
+	font-size: 2em;
+}
+#post-title a {
+	color: rgb(43, 155, 12);
+	text-decoration: none;
+}
+/* 文章标题经过的样式 */
+#post-title a:hover {
+	text-decoration: none;
+	color: #21759b;
+	border-bottom: 1px solid #21759b;
+}
+.post-right h6 {
+	font-family: 'CabinRegular',Arial;
+	color: silver;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+/* 文章摘要的样式 */
+.post-overview-right {
+	margin-top: -10px;
+	float: left;
+}

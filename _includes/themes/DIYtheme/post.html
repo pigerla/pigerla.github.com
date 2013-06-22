@@ -5,7 +5,7 @@
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
-
+  <br />
   {{ content }}
 
   <address class="signature">
@@ -25,4 +25,20 @@
   
 </div><!-- End Page -->
 
-{% include JB/comments %}
+<!--不用默认的评论系统：{% include JB/comments %}-->
+
+<!--使用“多说评论系统”-->
+<!-- Duoshuo Comment BEGIN -->
+<div class="ds-thread" data-thread-key="{{ post.title }}" data-title="{{ post.title }}" data-author-key="{{ page.title }}"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"pigerla"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- Duoshuo Comment END -->

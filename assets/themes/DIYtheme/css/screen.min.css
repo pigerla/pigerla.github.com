@@ -1,0 +1,43 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr{margin:0;padding:0}body{font-family:Arial，Palatino,georgia,"times new roman",serif;background-color:whitesmoke;background-position:center -18em;background-repeat:repeat-x}
+body img{width:720px}img{-ms-interpolation-mode:bicubic}html>body{font-size:16px}p{margin:0 0 1.5em 0;text-align:justify}a{text-decoration:none;color:#339}
+a:hover{text-decoration:underline;color:#33f}a.pdf:before{margin-right:1em;content:url(/files/css/icon_pdf.gif)}h1,h2,h3,h4{line-height:1em;font-size:1.5em;font-weight:normal;clear:left;font-family:'lucida grande',sans-serif}
+h1{margin-bottom:1em}h2{font-size:100%;line-height:1.5em;margin:1.5em 0 1.5em 0;font-weight:bold}hr{border-top:1px solid silver;border-bottom:0;padding:0;margin:1.46em 0 0 0}
+sup{line-height:1ex}#site{max-width:51em;margin:1.5em auto 3em auto;line-height:1.5em;font-family:Arial,georgia,"times new roman",serif}
+#page,#disqus_thread{background:white;padding:3em 3em 1.5em 3em;border:1px solid #ccc}#page,#disqus_thread{box-shadow:2px 2px 8px #aaa;-webkit-box-shadow:2px 2px 8px #aaa;-moz-box-shadow:2px 2px 8px #aaa}
+#disqus_thread{padding-top:1em;margin-top:.5em}.emphnext+p:first-letter ,p.emphfirst:first-letter {font-size:48px;padding:0 .15em 0 0;margin:.05em 0 -0.15em 0;line-height:1em;float:left}
+.emphnext+p:first-line ,p.emphfirst:first-line {font-variant:small-caps;font-size:larger}.right{float:right;clear:left}.left{float:left;clear:right}.inset{border:1px solid silver;padding:2px;margin:0 .8em .8em .8em}
+.right.inset{margin-right:0!important}.left.inset{margin-left:0!important}.quiet{color:grey;font-size:.875em;line-height:1.714em}blockquote{padding:0 2.8em;margin:1.714em 0;color:#444;font-size:.875em;line-height:1.714em}
+.note{padding-top:.5em;background-color:#fafaff;border-top:1px solid silver;border-bottom:1px solid silver}table.neat{width:80%;margin:1.5em auto 1.5em auto;table-layout:fixed;border-spacing:0}
+table.neat tr{text-align:center}table.neat th{font-weight:normal;background-color:#eee}table.neat td{background-color:white}table.neat th.title{border-bottom:1px solid gray;border-top:1px solid gray;vertical-align:bottom;background-color:lightgrey}
+caption{color:#333;font-size:.875em;margin:.875em auto 0 auto;line-height:1.14em;text-align:justify}ul{margin-top:1.5em;margin-bottom:1.5em;line-height:1.5em;padding-left:1.5em}
+ul li{list-style-type:square;list-style-position:outside}ol li{list-style-type:decimal;list-style-position:inside}dt{font-weight:bold}dd{margin:0 0 1.5em 0;text-align:justify}
+ul.compact{margin:0;padding:0}ul.compact li{list-style:;list-style-type:square;list-style-position:inside}ul.compact li span.date{display:none;color:grey;width:20%}
+ul.compact li a{width:70%}#header,#header a{color:#21759b;font-family:"微软雅黑","Open Sans","Ubuntu",Helvetica,Arial,sans-serif}
+#header .hover{color:transparent}#header:hover a:hover{text-decoration:none}#header{position:relative;margin-top:1.5em;margin-bottom:.5em;padding:2em 3em 0 3em;background:white;border:1px solid #ccc;box-shadow:2px 2px 8px #aaa;-webkit-box-shadow:2px 2px 8px #aaa;-moz-box-shadow:2px 2px 8px #aaa}
+#header h1{font-size:4em;display:block;font-weight:normal}#header h1:hover{color:black;text-shadow:#aaa 2px 2px 3px}#header ul{font-size:100%;line-height:3em;display:block;border-top:1px solid silver;border-bottom:1px solid silver;padding-left:0}
+#header ul li{display:inline;font-size:1.2em}#header ul li a{padding:.4em .3em 0 .3em;display:inline}#header ul:hover{color:black;text-shadow:#aaa 2px 2px 3px}
+#header ul li a:hover{color:blue;border-bottom:2px solid blue}#search{float:right;font-size:1em;margin-top:.6em;border:1px solid silver;background-color:#fff}
+#header p{position:absolute;top:7em}#twitter_update_list{display:inline;margin:0}#twitter_update_list li{display:inline;margin:0}.twitter-title{display:inline;margin:0}
+.twitter-title a{display:inline}body#Work #header a.work,body#Home #header a.home,body#Play #header a.play,body#Info #header a.info,body#Code #header a.code,body#Past #header a.past,body#Kith #header a.kith{border-bottom:2px solid silver}
+.footnotes{color:grey}.footnotes:hover{color:black}.footnotes ol li{list-style-type:decimal;list-style-position:inside;font-size:75%;line-height:1.5em}
+.footnotes ol li>a{display:none}.section{font-size:87.5%;line-height:1.43em;margin-bottom:1.43em;margin-top:1.43em;margin-left:7.5em;padding-right:3em}
+.section h1{font-family:Palatino,georgia,serif;font-size:100%;line-height:1.43em;position:absolute;width:6em;max-width:6em;margin-left:-7.5em;font-weight:bold;font-variant:small-caps}
+.section p{margin-bottom:1.43em}.list .title{font-weight:bold}p.line{position:relative;margin:0}p.excerpt{margin:0}.comments{font-size:smaller;position:absolute;color:silver;right:0;top:0}
+.excerpt{color:black}.signature{margin-top:3em;position:relative}.signature .author{font-variant:small-caps;font-style:normal;color:black;display:block;margin-bottom:1.5em}
+.signature .date{font-size:87.5%;line-height:1.5em;display:block;font-variant:small-caps;font-style:normal;position:absolute;right:0;top:0}.signature .location{display:block;font-size:87.5%;line-height:1.5em;position:absolute;right:0;top:1.5em}
+pre{margin:1em 0 1.5em 0;font-size:.75em;line-height:1.5em;color:#111;background:#fffff0;border:1px solid #ddc;padding:.5em 1em;overflow:hidden;box-shadow:1px 1px 6px #ccc;-webkit-box-shadow:1px 1px 6px #ccc;-moz-box-shadow:1px 1px 6px #ccc}
+pre:hover{border-right:0;overflow:visible}code{font-size:1em;background-color:#f7f7ff;line-height:1.4em}pre>code{background-color:transparent}#disqus_thread{margin-top:.5em}
+.dsq-comment-body{text-align:justify;line-height:1.29em}.dsq-comment{padding-top:0!important;margin-top:1.7em!important;margin-bottom:1.9em!important;background-image:none!important}
+.dsq-comment-message{line-height:1.714em}.dsq-comment-header{background-color:whitesmoke!important;border-top:1px solid silver!important;border-bottom:1px solid silver!important;margin-bottom:1.15em!important}
+.dsq-header-time{margin-left:0!important}.dsq-comment-header cite{font-variant:small-caps;margin-left:0!important}.dsq-comment-footer{font-size:75%!important;margin-top:1px!important}
+#dsq-options{background:whitesmoke;border-bottom:1px solid silver;border-top:1px solid silver;padding:0 0 0 1em}#dsq-comments-count{margin-top:.8em!important;margin-bottom:1.2em!important}
+#dsq-extra-links{padding-left:0!important}#dsq-extra-links li img{display:none}#dsq-options-toggle{color:silver;font-size:75%!important}#dsq-add-new-comment{margin-top:1.19em!important;margin-bottom:1.25em!important}
+form#comment{position:absolute;height:100%;width:100%;background-color:white!important}span.LTtitle{display:none}div.LTitem{display:inline;margin-right:.7em}
+div.LTprovided{display:none}#lastfm a{margin-right:.7em}.delicious-posts ul,.delicious-posts li,.delicious-banner{margin:0;padding:0}.delicious-posts li{list-style-position:outside;margin-bottom:1em;margin-left:1em;text-align:justify}
+.delicious-banner{display:none}.delicious-post a{font-weight:bold}p.delicious-extended{font-size:100%;display:inline}p.delicious-extended:before{content:' — '}
+#footer{margin-top:0;color:grey;font-size:87.5%;line-height:1.3em}#footer address{position:relative;margin:.5em 0 0 0;text-align:right}#footer a{font-variant:small-caps;font-style:normal;color:#77d;text-decoration:none}
+#footer .copyright{position:absolute;left:0;text-align:left;display:block}#footer .engine{position:absolute;text-align:right;display:block;right:0}dl.figure{margin-top:1.5em;margin-bottom:1.5em;text-align:center}
+dl.figure dd{color:#333;font-size:.875em;margin:.875em auto 0 auto;line-height:1.14em;text-align:justify;width:85%}div.maruku-equation{display:block;text-align:center}
+div.maruku-equation img.maruku-png{position:relative;top:-0.75em}.prev-next{position:relative}.prev-next .next{float:right}.tag_box{list-style:none;margin:0;padding:5px 0;overflow:hidden}
+.tag_box li{list-style:none;line-height:1.8em}.tag_box.inline li{float:left}.tag_box a{padding:3px 6px;margin:2px;background:#eee;border-radius:3px;border:1px dashed #ccc;text-decoration:none}
+.tag_box a span{vertical-align:super;font-size:.8em}.tag_box a.active{background:#57a957;border:1px solid #4c964d;color:#FFF}

@@ -14,12 +14,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @结束 */
 
 body {
-	font-family: Palatino, georgia, "times new roman", serif;
+	font-family:Arial，Palatino, georgia, "times new roman", serif;
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
 }
-
+/*自定义图片的宽度*/
+body img { width: 720px;}
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
 img { -ms-interpolation-mode:bicubic; }
 
@@ -58,9 +59,11 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 46em;
+	max-width: 51em;
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
+	/* 改变文章字体为Arial */
+	font-family:Arial,georgia, "times new roman", serif;
 }
 
 #page, #disqus_thread {
@@ -227,7 +230,7 @@ ul.compact li a {
     border-bottom: 1px solid silver;
     padding-left: 0;
 }
-#header ul li { display: inline; }
+#header ul li { display: inline; font-size: 1.2em;}
 #header ul li a {
 	padding: 0.4em 0.3em 0 0.3em;
 	display: inline;
@@ -238,6 +241,13 @@ ul.compact li a {
 #header ul li a:hover {
 	color: blue;
 	border-bottom: 2px solid blue;
+}
+#search {
+	float: right;
+	font-size: 1em;
+	margin-top: 0.6em;
+	border: 1px solid silver;
+	background-color: #fff;
 }
 #header p{
 	position: absolute;
