@@ -1,7 +1,6 @@
 .post{display:inline-block;border-bottom:1px solid silver;padding-bottom:1em;margin-bottom:2em}.post a{font-family:"微软雅黑","Open Sans","Ubuntu",Helvetica,Arial,sans-serif;color:#21759b}
 .post a:hover{text-decoration:underline;color:#2b9b0c}.post-left{width:75px;float:left;color:#cecece;padding:4px 10px 0 0;margin-right:21px;border-right:2px solid #cecece;text-align:right}
 .post-left:hover{color:#21759b}.post-date{padding-top:10px;font-family:"CabinBold",Arial,sans;font-size:400%;line-height:32px;text-align:center;letter-spacing:-2px}
-div.post-left div.post-date span{font-size:16px;text-transform:uppercase;letter-spacing:0}.post-right{float:left;width:38em;margin:0;position:relative}
-#post-title{color:#2b9b0c;margin:0 0 9px;padding:0;font-family:'CabinRegular',Arial;font-size:2em}#post-title a{color:#2b9b0c;text-decoration:none}
-#post-title a:hover{text-decoration:none;color:#21759b;border-bottom:1px solid #21759b}.post-right h6{font-family:'CabinRegular',Arial;color:silver;font-size:1em;font-weight:normal}
+div.post-left div.post-date span{font-size:16px;text-transform:uppercase;letter-spacing:0}.post-right{overflow:hidden;margin:0;position:relative}#post-title{color:#2b9b0c;margin:0 0 9px;padding:0;font-family:'CabinRegular',Arial;font-size:2em}
+#post-title a{color:#2b9b0c;text-decoration:none}#post-title a:hover{text-decoration:none;color:#21759b;border-bottom:1px solid #21759b}.post-right h6{font-family:'CabinRegular',Arial;color:silver;font-size:1em;font-weight:normal}
 .post-overview-right{margin-top:-10px;float:left}
