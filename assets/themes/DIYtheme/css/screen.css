@@ -59,7 +59,7 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 51em;
+	max-width: 50em;
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
 	/* 改变文章字体为Arial */
