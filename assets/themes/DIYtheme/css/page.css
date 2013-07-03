@@ -53,8 +53,8 @@ div.post-left div.post-date span {
 
 /* 文章右侧样式 */
 .post-right {
-	float: left;
-	width: 38em;
+	/*出发BFC,形成独立块，同时响应式*/
+	overflow: hidden;
 	margin: 0;
 	position: relative;
 }
