@@ -30,9 +30,9 @@ Github Pages不是一个新技术，而是你要按照特定的repositories（�
 
 ### 要理解2个概念：
 
-** [jekyll](http://jekyllrb.com/docs/home/ "点击可查看此Blog中官方文档说明文章")-[bootstrap](http://jekyllbootstrap.com/ "点击可查看官方文档说明")中的jekyll不是一个博客软件，只是一个（博客）解析引擎，会把已经编写好的页面模版解析出来，呈现一个个可访问的页面，详细可看[jekyll官方文档](http://jekyllrb.com/docs/home/ "点击可查看此Blog中官方文档说明文章")。而bootstrap可以理解为：别人已经写好，具有blog雏形的简易blog开源系统框架，拿来即可使用。**
+[jekyll](http://jekyllrb.com/docs/home/ "点击可查看此Blog中官方文档说明文章")-[bootstrap](http://jekyllbootstrap.com/ "点击可查看官方文档说明")中的jekyll不是一个博客软件，只是一个（博客）解析引擎，会把已经编写好的页面模版解析出来，呈现一个个可访问的页面，详细可看[jekyll官方文档](http://jekyllrb.com/docs/home/ "点击可查看此Blog中官方文档说明文章")。而bootstrap可以理解为：别人已经写好，具有blog雏形的简易blog开源系统框架，拿来即可使用。
 
-** 搭建个人blog实际上就是上面所说的，把托管在Github上的jekyll-bootstrap框架clone下来，然后替换上面搭建个人主页的repository根目录下所有的文件。**
+搭建个人blog实际上就是上面所说的，把托管在Github上的jekyll-bootstrap框架clone下来，然后替换上面搭建个人主页的repository根目录下所有的文件。
 
 ### 搭建步骤：
 
