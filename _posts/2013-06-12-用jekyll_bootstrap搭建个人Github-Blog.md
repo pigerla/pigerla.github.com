@@ -23,8 +23,7 @@ Github Pages不是一个新技术，而是你要按照特定的repositories（�
 	<h1>Hello World</h1>
 {% endhighlight %}
 
-> 至此，你的个人的Github Pages就创建成功了，如何验证？
-打开你的浏览器，并输入xxxx.github.com,就可以看到网页输入"Hello World",说明搭建成功了。
+> 至此，你的个人的Github Pages就创建成功了，如何验证？打开你的浏览器，并输入xxxx.github.com,就可以看到网页输入"Hello World",说明搭建成功了。
 
 + 有了上面的“基础知识”之后，接下来部署本文章的主题“用jekyll-bootstrap搭建个人github_blog”就比较容易、轻松了。
 
