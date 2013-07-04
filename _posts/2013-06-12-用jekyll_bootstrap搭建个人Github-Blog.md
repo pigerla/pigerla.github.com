@@ -15,3 +15,8 @@ tags : [Github_blog, 初学者, jekyll]
 
 + 在这里默认你懂得使用github的基本操作，如commit , add , push , pull等，懂得如何创建repositories（仓库，也即是一个项目工程）
 Github Pages不是一个新技术，而是你要按照特定的repositories（仓库）命名规则就能很容易得到个人的、静态的主页。规则接下讲解：
+
+1. 创建一个repository，并命名为 xxxx.github.com ,其中xxxx表示你的github帐号名 ，如我的：pigerla.github.com,其他默认即可。
+
+![create an repository]({{ root_url }}/assets/images/create_repository.jpg "create an repository")
+
