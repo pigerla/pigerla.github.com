@@ -16,7 +16,7 @@ Page Speed是Firefox浏览器和Chrome浏览器中的一个插件，作用就是
 
 在这里我用的测试环境是Chrome浏览器，自然安装了Chrome的Page Speed插件。如何安装此插件？打开“ Chrome网上应用店 ”，进去之后在搜索栏输入“ Page Speed ”进行搜索，并在搜索结果中找到“ PageSpeed Insights ”,点击“ 添加至Chrome ”即可自动安装,完成之后可以浏览器的标签栏右侧上方即可看到图标。
 
-[![Page Speed的Chrome插件](http://pigerla.com/assets/images/PageSpeed.jpg)]
+[![Page Speed的Chrome插件](http://pigerla.com/assets/images/20130620/PageSpeed.jpg)]
 
 ## 3. 为什么要用Page Speed？
 
