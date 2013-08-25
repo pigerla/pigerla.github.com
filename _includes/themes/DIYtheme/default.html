@@ -81,7 +81,7 @@
   <script type="text/javascript">
     $(function() {
       $.ajax({
-          url: "/search.xml",
+          url: "http://pigerla.com/search.xml",
           dataType: "xml",
           success: function( xmlResponse ) {
              var data = $( "article", xmlResponse ).map(function() {
