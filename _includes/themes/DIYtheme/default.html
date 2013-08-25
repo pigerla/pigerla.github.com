@@ -29,6 +29,8 @@
    <!-- Homepage_post css,called page.css-->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css" >
 
+   <link rel="stylesheet" href="http://pigerla.com/assets/css/jquery-ui.css" type="text/css" />
+
 </head>
 <body id="{{ page.section }}">
 <div id="site">
@@ -74,7 +76,34 @@
 </script>
 <script type="text/javascript" src="http://static.ie6update.com/hosted/ie6update/ie6update.js"></script>
 <![endif]-->
+  <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
+  <script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $.ajax({
+          url: "/search.xml",
+          dataType: "xml",
+          success: function( xmlResponse ) {
+             var data = $( "article", xmlResponse ).map(function() {
+                  return {
+                      value: $( "title", this ).text() + ", " +
+                          ( $.trim( $( "date", this ).text() ) ),
+                      desc: $("description", this).text(),
+                      url: $("url", this).text()
+                  };
+              }).get();
 
+              $( "#search" ).autocomplete({
+                  source: data,
+                  minLength: 0,
+                  select: function( event, ui ) {
+                    window.location.href = ui.item.url;
+                  }
+              });
+          }
+      });
+  });
+  </script>
   {% include JB/analytics %}
 </body>
 </html>
