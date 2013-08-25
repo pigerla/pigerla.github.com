@@ -28,16 +28,12 @@
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.min.css" type="text/css" />
    <!-- Homepage_post css,called page.css-->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css" >
-
+   <!--添加搜索样式-->
    <link rel="stylesheet" href="http://pigerla.com/assets/css/jquery-ui.css" type="text/css" />
-
+   <!--使得适应-->
    <style type="text/css">
-      .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all{
-        top: 225px;
-        left: 851px;
-      }
-      .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all .ui-menu-item{
-        list-style-type: none;
+      #search {
+        color: #21759b;
       }
    </style>
 
@@ -113,6 +109,12 @@
           }
       });
   });
+    $(function(){
+      $(".ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all").css("top","225px");
+      $(".ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all").css("left","851px");
+      $(".ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li").css("list-style-type","none");
+      }
+    })
   </script>
   {% include JB/analytics %}
 </body>
