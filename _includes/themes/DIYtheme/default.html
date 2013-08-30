@@ -30,10 +30,6 @@
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css" >
    <!--添加搜索样式-->
    <link rel="stylesheet" href="http://pigerla.com/assets/css/jquery-ui.css" type="text/css" />
-   <!--高亮代码css-->
-   <link rel="stylesheet" href="http://pigerla.com/assets/css/prettify.css" type="text/css" />
-   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
-   <script type="text/javascript" src="http://pigerla.com/assets/js/prettify.js"></script>
    <!--使得适应-->
    <style type="text/css">
        /*风格与字体颜色*/
@@ -94,6 +90,7 @@
 <script type="text/javascript" src="http://static.ie6update.com/hosted/ie6update/ie6update.js"></script>
 <![endif]-->
   <!--引入搜索js-->
+  <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
   <script type="text/javascript">
     $(function() {
@@ -120,13 +117,6 @@
           }
       });
   });
-  </script>
-  <script type="text/javascript">
-    !function ($) {
-      $(function(){
-          window.prettyPrint && prettyPrint();
-      });
-    }(window.jQuery);
   </script>
   {% include JB/analytics %}
 </body>
