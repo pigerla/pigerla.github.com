@@ -16,7 +16,7 @@ ul.compact li a{width:70%}#header,#header a{color:#21759b;font-family:"微软雅
 #header .hover{color:transparent}#header:hover a:hover{text-decoration:none}#header{position:relative;margin-top:1.5em;margin-bottom:.5em;padding:2em 3em 0 3em;background:white;border:1px solid #ccc;box-shadow:2px 2px 8px #aaa;-webkit-box-shadow:2px 2px 8px #aaa;-moz-box-shadow:2px 2px 8px #aaa}
 #header h1{font-size:4em;display:block;font-weight:normal}#header h1:hover{color:black;text-shadow:#aaa 2px 2px 3px}#header ul{font-size:100%;line-height:3em;display:block;border-top:1px solid silver;border-bottom:1px solid silver;padding-left:0}
 #header ul li{display:inline;font-size:1.2em}#header ul li a{padding:.4em .3em 0 .3em;display:inline}#header ul:hover{color:black;text-shadow:#aaa 2px 2px 3px}
-#header ul li a:hover{color:blue;border-bottom:2px solid blue}#search{float:right;font-size:1em;margin-top:.6em;border:1px solid silver;background-color:#fff}
+#header ul li a:hover{color:blue;border-bottom:2px solid blue}#search{float:right;padding:5px;margin-top:.6em;border:1px solid silver;background-color:#fff;font-size:1em}
 #header p{position:absolute;top:7em}#twitter_update_list{display:inline;margin:0}#twitter_update_list li{display:inline;margin:0}.twitter-title{display:inline;margin:0}
 .twitter-title a{display:inline}body#Work #header a.work,body#Home #header a.home,body#Play #header a.play,body#Info #header a.info,body#Code #header a.code,body#Past #header a.past,body#Kith #header a.kith{border-bottom:2px solid silver}
 .footnotes{color:grey}.footnotes:hover{color:black}.footnotes ol li{list-style-type:decimal;list-style-position:inside;font-size:75%;line-height:1.5em}

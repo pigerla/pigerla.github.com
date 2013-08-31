@@ -244,10 +244,11 @@ ul.compact li a {
 }
 #search {
 	float: right;
-	font-size: 1em;
-	margin-top: 0.6em;
+	padding: 5px;
+	margin-top: 0.35em;
 	border: 1px solid silver;
 	background-color: #fff;
+	font-size: 1em;
 }
 #header p{
 	position: absolute;
