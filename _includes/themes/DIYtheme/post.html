@@ -1,5 +1,4 @@
 <div id="page">
-	
   <h1 class="emphnext">{{ page.title }}</h1>
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
@@ -22,11 +21,7 @@
     <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
   {% endif %}
   </div>
-  
 </div><!-- End Page -->
-
-<!--不用默认的评论系统：{% include JB/comments %}-->
-
 <!--使用“多说评论系统”-->
 <!-- Duoshuo Comment BEGIN -->
 <div class="ds-thread" data-thread-key="{{ post.title }}" data-title="{{ post.title }}" data-author-key="{{ page.title }}"></div>
