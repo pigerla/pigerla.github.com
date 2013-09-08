@@ -83,8 +83,12 @@
   <!--引入搜索js-->
   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="http://pigerla.com/assets/js/responsiveImg.js"></script>
   <script type="text/javascript">
     $(function() {
+      //图片响应式
+      $("img").responsiveImg();
+      //搜索
       $.ajax({
           url: "http://pigerla.com/search.xml",
           dataType: "xml",
