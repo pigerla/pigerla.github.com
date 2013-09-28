@@ -1,4 +1,4 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr{margin:0;padding:0}body{font-family:Arial，Palatino,georgia,"times new roman",serif;background-color:whitesmoke;background-position:center -18em;background-repeat:repeat-x}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr{margin:0;padding:0}body{font-family: "微软雅黑", 'Open Sans', Ubuntu, Helvetica, Arial, sans-serif;background-color:whitesmoke;background-position:center -18em;background-repeat:repeat-x}
 body img{width:auto}img{-ms-interpolation-mode:bicubic}html>body{font-size:16px}p{margin:0 0 1.5em 0;text-align:justify}a{text-decoration:none;color:#339}
 a:hover{text-decoration:underline;color:#33f}a.pdf:before{margin-right:1em;content:url(/files/css/icon_pdf.gif)}h1,h2,h3,h4{line-height:1em;font-size:1.5em;font-weight:normal;clear:left;font-family:'lucida grande',sans-serif}
 h1{margin-bottom:1em}h2{font-size:100%;line-height:1.5em;margin:1.5em 0 1.5em 0;font-weight:bold}hr{border-top:1px solid silver;border-bottom:0;padding:0;margin:1.46em 0 0 0}
