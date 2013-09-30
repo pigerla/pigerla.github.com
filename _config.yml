@@ -9,7 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Simplicity but not Simple
+#title : Simplicity but not Simple
+title : 简约而不简单
 tagline: Site Tagline
 author :
   name : Spy
