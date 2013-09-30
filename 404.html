@@ -1,30 +1,40 @@
 <!--404.html -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>未找到页面</title>
-	<!-- 添加网址logo icon-->
-   <link rel="Shortcut Icon" href="{{ root_url }}/assets/images/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>404 | 简约不简单</title>
+    <meta name="author" content="{{ site.author.name }}"/>
+    <!-- 添加网址logo icon-->
+    <link rel="Shortcut Icon" href="{{ root_url }}/assets/images/favicon.ico">
+    <style type="text/css">
+        body{background: #fff;font-family: "微软雅黑","Open Sans","Ubuntu",Helvetica,Arial,sans-serif;text-align: center;}h1{color: #21759b;}
+        .text{margin: 0 auto;width: 300px;}.btn {color: #ffffff;background-color: #428bca;display: inline-block;text-decoration: none;padding: 6px 12px;margin-bottom: 0;cursor: pointer;border: 1px solid #357ebd;border-radius: 4px;}
+        #seconds{color: red;padding: 0 5px;}
+    </style>
 </head>
-<body style="background-color:#fff">
-<br>
-<div align="center">
-	<table>
-		<tbody>
-			<tr>
-				<td width="600px">
-				<center>
-					<img id="errorimage" src="assets/images/psychobox.png">
-				</center>
-				<h1 align="center"><a href="http://pigerla.com/" alt="点击返回主页" title="点击返回主页" style="text-decoration:none;">未找到网页(404)</a></h1>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+<body>
+<div class="text">
+    <h1>404 | ⊙﹏⊙</h1>
+    <p>还剩<strong id="seconds">5</strong>秒就回到主页啦,或者点击按钮直接</p>
+    <a class="btn" href="http://pigerla.com/" alt="返回主页" title="返回主页">回到首页</a>
 </div>
+<script type="text/javascript">
+    function timeToBack(){
+        setInterval(function(){
+            if( document.getElementById('seconds').innerHTML  <= 0){
+                location.href="http://pigerla.com/";
+            }else{
+                document.getElementById('seconds').innerHTML -=1;
+            }
+        },1000);
+    }
+    window.onload = function(){
+        timeToBack();
+    }
+</script>
 </body>
 </html>
