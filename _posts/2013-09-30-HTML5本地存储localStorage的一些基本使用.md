@@ -14,11 +14,8 @@ HTML5本地存储API中的`localStorage`和`sessionStorage`在使用方法上是
 ## localStorage.setItem(key,value) ##
 
 个人觉得`localStorage API`的使用方法简单易懂的，首先要知道，localStorage本地保存数据是以`(key,value)`（键值对）的形式来保存的。调用`setItem(key,value)`即可保存一个键值对数据。打开`chrome`的`Console`输入如下代码：
-
 <!--break-->
-
 {% highlight html %} 
- 
 localStorage.setItem(8 , 24);
 localStorage.setItem("Spy","pigerla.com");
 localStorage.setItem("array",[1,2,3,4,5]);
