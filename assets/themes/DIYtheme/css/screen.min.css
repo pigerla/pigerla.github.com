@@ -1,9 +1,8 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr{margin:0;padding:0}body{font-family: "微软雅黑", 'Open Sans', Ubuntu, Helvetica, Arial, sans-serif;background-color:whitesmoke;background-position:center -18em;background-repeat:repeat-x}
 body img{width:auto}img{-ms-interpolation-mode:bicubic}html>body{font-size:16px}p{margin:0 0 1.5em 0;text-align:justify}a{text-decoration:none;color:#339}
-a:hover{text-decoration:underline;color:#33f}a.pdf:before{margin-right:1em;content:url(/files/css/icon_pdf.gif)}h1,h2,h3,h4{line-height:1em;font-size:1.5em;font-weight:normal;clear:left;font-family:'lucida grande',sans-serif}
+a:hover{text-decoration:underline;color:#33f}a.pdf:before{margin-right:1em;content:url(/files/css/icon_pdf.gif)}h1,h2,h3,h4{line-height:1em;font-size:1.5em;font-weight:normal;clear:left;font-family: "微软雅黑","Open Sans","Ubuntu",Helvetica,Arial,sans-serif;}
 h1{margin-bottom:1em}h2{font-size:100%;line-height:1.5em;margin:1.5em 0 1.5em 0;font-weight:bold}hr{border-top:1px solid silver;border-bottom:0;padding:0;margin:1.46em 0 0 0}
-sup{line-height:1ex}#site{max-width:50em;margin:1.5em auto 3em auto;line-height:1.5em;font-family:Arial,georgia,"times new roman",serif}
-#page,#disqus_thread{background:white;padding:3em 3em 1.5em 3em;border:1px solid #ccc}#page,#disqus_thread{box-shadow:2px 2px 8px #aaa;-webkit-box-shadow:2px 2px 8px #aaa;-moz-box-shadow:2px 2px 8px #aaa}
+sup{line-height:1ex}#site{max-width:50em;margin:1.5em auto 3em auto;line-height:1.5em;}#page,#disqus_thread{background:white;padding:3em 3em 1.5em 3em;border:1px solid #ccc}#page,#disqus_thread{box-shadow:2px 2px 8px #aaa;-webkit-box-shadow:2px 2px 8px #aaa;-moz-box-shadow:2px 2px 8px #aaa}
 #disqus_thread{padding-top:1em;margin-top:.5em}.emphnext+p:first-letter ,p.emphfirst:first-letter {font-size:48px;padding:0 .15em 0 0;margin:.05em 0 -0.15em 0;line-height:1em;float:left}
 .emphnext+p:first-line ,p.emphfirst:first-line {font-variant:small-caps;font-size:larger}.right{float:right;clear:left}.left{float:left;clear:right}.inset{border:1px solid silver;padding:2px;margin:0 .8em .8em .8em}
 .right.inset{margin-right:0!important}.left.inset{margin-left:0!important}.quiet{color:grey;font-size:.875em;line-height:1.714em}blockquote{padding:0 2.8em;margin:1.714em 0;color:#444;font-size:.875em;line-height:1.714em}
