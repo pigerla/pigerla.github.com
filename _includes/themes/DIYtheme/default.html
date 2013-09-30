@@ -33,6 +33,8 @@
    <!--使得适应-->
    <style type="text/css">
       .ui-menu-item{list-style-type: none;}.ui-menu-item a, #search {color: #21759b;}.ui-menu-item a:hover{color: #2b9b0c;cursor:pointer;background: white;border-color:silver !important;}#search:focus {border-color: #66afe9;outline: 0;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);}.ui-corner-all{-moz-border-radius: 0;-webkit-border-radius: 0;Unknown property name.-khtml-border-radius: 0;border-radius: 0;}code{word-wrap: break-word;font-size: 1.5em;font-family: arial,"微软雅黑";} p code{font-size: 18px;}.ui-menu .ui-menu-item a {border: 1px solid #fff;}
+      #backToTop{display:block;width:50px;text-align:center;line-height:50px;position:fixed;bottom:50px;right:150px;border-radius:10px;text-decoration:none;border:1px solid silver;display:none;}
+      #backToTop span{display:block;width:50px;color: #2b9b0c;font-size:40px;}#backToTop span:hover{ color: #21759b;}
    </style>
 
 </head>
@@ -55,7 +57,10 @@
   </div>
 
   {{ content }}
-  
+
+    <!--回到顶部按钮-->
+    <a id="backToTop" href="#"><span>∧</span></a>
+
   <div id="footer">
   	<address>
   		<span class="copyright">
@@ -83,32 +88,44 @@
   <!--引入搜索js-->
   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
   <script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      $.ajax({
-          url: "http://pigerla.com/search.xml",
-          dataType: "xml",
-          success: function( xmlResponse ) {
-             var data = $( "article", xmlResponse ).map(function() {
-                  return {
-                      value: $( "title", this ).text() + "【" +
-                          ( $.trim( $( "date", this ).text() )+"】" ),
-                      desc: $("description", this).text(),
-                      url: $("url", this).text()
-                  };
-              }).get();
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            url: "http://pigerla.com/search.xml",
+            dataType: "xml",
+            success: function (xmlResponse) {
+                var data = $("article", xmlResponse).map(function () {
+                    return {
+                        value: $("title", this).text() + "【" +
+                                ( $.trim($("date", this).text()) + "】" ),
+                        desc: $("description", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
 
-              $( "#search" ).autocomplete({
-                  source: data,
-                  minLength: 0,
-                  select: function( event, ui ) {
-                    window.location.href = ui.item.url;
-                  }
-              });
-          }
-      });
-  });
-  </script>
+                $("#search").autocomplete({
+                    source: data,
+                    minLength: 0,
+                    select: function (event, ui) {
+                        window.location.href = ui.item.url;
+                    }
+                });
+            }
+        });
+
+        $(window).scroll(function () {  //只要窗口滚动,就触发下面代码
+            var scrollTop = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度
+            if (scrollTop > 600) {  //判断滚动后高度超过600px,就显示
+                $("#backToTop").fadeIn(400); //淡出
+            } else {
+                $("#backToTop").stop().fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
+            }
+        });
+        $("#backToTop").click(function () { //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
+            $("html,body").animate({scrollTop: "0px"}, 200);
+        });
+    });
+</script>
   {% include JB/analytics %}
 </body>
 </html>
