@@ -19,7 +19,7 @@ Foundation提供其中一个最好的javascript插件就是[Section](http://foun
 
 ![foundation-3-section-1](http://pigerla.com/assets/images/20131116/foundation-3-section-1.png)
 
-![foundation-3-section-1](http://pigerla.com/assets/images/20131116/foundation-3-section-1.png)
+![foundation-3-section](http://pigerla.com/assets/images/20131116/foundation-3-section.png)
 
 见如下代码:
 
