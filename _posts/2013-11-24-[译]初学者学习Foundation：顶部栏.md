@@ -13,11 +13,11 @@ tags : [Foundation入门]
 
 ![foundation-4-1](http://pigerla.com/assets/images/20131124/foundation-4-1.jpg)
 
+<!--break-->
+
 ## 顶部栏，或者不用顶部栏 ##
 
 Foundation的顶部栏是一个非常小巧有用的组件，但不是意味着在你的工程中就一定要使用它。我估计，在使用Foundation来开发过的项目中，大概占40%的项目使用了顶部栏。你该认真分析项目需求来决定是否应该使用顶部栏；顶部栏组件是很容易改变样式的，但是交互功能就比较固定了。
-
-<!--break-->
 
 ## 基本架构 ##
 
