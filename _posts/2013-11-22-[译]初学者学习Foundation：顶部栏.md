@@ -25,7 +25,7 @@ Foundation的顶部栏是一个非常小巧有用的组件，但不是意味着�
 
 ![foundation-4-2](http://pigerla.com/assets/images/20131124/foundation-4-2.jpg)
 
-接着在`<nav class="top-bar">`里面添加一个`<ul>`和两个`<li>`，其中一个<li>来显示这个菜单的标题或者logo。
+接着在`<nav class="top-bar">`里面添加一个`<ul>`和两个`<li>`，其中一个`<li>`来显示这个菜单的标题或者`logo`。
 
 **备注：**如果你只想显示“MENU”或者“三横”（见上图），就可以去掉`menu-icon`，或者是标签内容“Menu”。
 
@@ -41,7 +41,7 @@ Foundation的顶部栏是一个非常小巧有用的组件，但不是意味着�
 
 ## 添加父链接 ##
 
-添加父链接（li项）是我们接下来要做的，关闭</nav>之前需要添加一个`<section class="top-bar-section">`标签，在这个section中需要添加一个无序列表。
+添加父链接（li项）是我们接下来要做的，关闭`</nav>`之前需要添加一个`<section class="top-bar-section">`标签，在这个section中需要添加一个无序列表。
 
 ![foundation-4-3](http://pigerla.com/assets/images/20131124/foundation-4-3.jpg)
 
@@ -57,7 +57,7 @@ Foundation的顶部栏是一个非常小巧有用的组件，但不是意味着�
     </ul>
     </section>
 
-从代码中注意到，`<ul class="left">`中有个class为left，用来控制在左侧显示导航内容。甚至可以添加两个菜单链接，左右（class="right"）显示导航内容。
+从代码中注意到，`<ul class="left">`中有个class为left，用来控制在左侧显示导航内容。甚至可以添加两个菜单链接，左右（`class="right"`）显示导航内容。
 
 到目前为止，我们所添加的代码可以水平地显示在顶部栏上，在小屏幕的设备上，将会变成一个下来菜单，点一下“MENU”或者“三横”按钮就可以显示出来。
 
@@ -65,7 +65,7 @@ Foundation的顶部栏是一个非常小巧有用的组件，但不是意味着�
 
 ![foundation-4-4](http://pigerla.com/assets/images/20131124/foundation-4-4.jpg)
 
-每个li项可以内嵌一个无序列表作为子菜单。为了实现这个功能，父链接（li项）必须添加一个class为has-dropdown，内嵌的ul必须添加class为dropdown:
+每个li项可以内嵌一个无序列表作为子菜单。为了实现这个功能，父链接（li项）必须添加一个class为`has-dropdown`，内嵌的ul必须添加class为`dropdown`:
 
     <li class="has-dropdown"><a href="#">Main Item 3</a>
 	    <ul class="dropdown">
