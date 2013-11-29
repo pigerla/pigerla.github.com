@@ -7,7 +7,7 @@ tags : [Foundation入门]
 
 原文标题：[Foundation for Beginners: The Top Bar](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/foundation-for-beginners-the-top-bar/)
 
-原文作者：[Matt Pilott](http://webdesign.tutsplus.com/author/matt-pilott/) , 2013-07-13
+原文作者：[Matt Pilott](http://webdesign.tutsplus.com/author/matt-pilott/) , 2013-06-07
 
 先看一下[Foundation](http://foundation.zurb.com/)首页的顶部工具栏，顶部工具栏包含很多内容，我们将进行内容分解来理解。
 
