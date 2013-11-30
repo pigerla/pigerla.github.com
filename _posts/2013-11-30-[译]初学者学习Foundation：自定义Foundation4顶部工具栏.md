@@ -39,35 +39,35 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
     <!-- HEADER AREA -->
     <header class="full-width header-area">
-    <div class="row">
-    <div class="large-12 columns">
-    <h2>Foundation-4 Custom Top Bar</h2>
-    </div>
-    </div>
+	    <div class="row">
+		    <div class="large-12 columns">
+		    	<h2>Foundation-4 Custom Top Bar</h2>
+		    </div>
+	    </div>
     </header>
     <!-- NAVIGATION AREA -->
     <div class="full-width navigation-area">
-    <div class="row">
-    <div class="large-12 columns">
-    <nav class="top-bar"></nav>
-    </div>
-    </div>
+	    <div class="row">
+		    <div class="large-12 columns">
+		   	 	<nav class="top-bar"></nav>
+		    </div>
+	    </div>
     </div>
     <!-- CONTENT AREA -->
     <div class="full-width content-area">
-    <div class="row">
-    <div class="large-12 columns">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores, voluptas, veniam commodi impedit tenetur dolores cumque facere explicabo esse quaerat veritatis laboriosam eius modi amet maxime non officia nemo? Iste, quisquam, voluptatum, dolor nam reiciendis unde aliquam numquam necessitatibus odio et perspiciatis facere nihil inventore ullam aspernatur corporis veritatis quia dolorum? Sed, hic, eos quis quibusdam eum aut optio repudiandae at! Eligendi, neque ratione alias enim quae magnam dolores esse pariatur earum laborum reiciendis nobis sunt sequi sapiente ducimus iure ipsam. Sapiente, minima, rerum, facere quos saepe pariatur magni dolorem cum amet nemo quis laborum ipsa dignissimos ducimus inventore modi rem cumque quibusdam quam asperiores! Optio, nobis suscipit molestias voluptas veritatis aspernatur accusamus excepturi rem quaerat impedit animi voluptate at facilis aliquid cum fugit labore omnis provident recusandae autem. Doloribus, mollitia quos officiis quas sapiente nam dolor praesentium maxime cupiditate illum? Rem, esse, nulla vitae adipisci sequi deleniti quasi!</p>
-    </div>
-    </div>
+	    <div class="row">
+		    <div class="large-12 columns">
+		    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores, voluptas, veniam commodi impedit tenetur dolores cumque facere explicabo esse quaerat veritatis laboriosam eius modi amet maxime non officia nemo? Iste, quisquam, voluptatum, dolor nam reiciendis unde aliquam numquam necessitatibus odio et perspiciatis facere nihil inventore ullam aspernatur corporis veritatis quia dolorum? Sed, hic, eos quis quibusdam eum aut optio repudiandae at! Eligendi, neque ratione alias enim quae magnam dolores esse pariatur earum laborum reiciendis nobis sunt sequi sapiente ducimus iure ipsam. Sapiente, minima, rerum, facere quos saepe pariatur magni dolorem cum amet nemo quis laborum ipsa dignissimos ducimus inventore modi rem cumque quibusdam quam asperiores! Optio, nobis suscipit molestias voluptas veritatis aspernatur accusamus excepturi rem quaerat impedit animi voluptate at facilis aliquid cum fugit labore omnis provident recusandae autem. Doloribus, mollitia quos officiis quas sapiente nam dolor praesentium maxime cupiditate illum? Rem, esse, nulla vitae adipisci sequi deleniti quasi!</p>
+		    </div>
+	    </div>
     </div>
     <!-- FOOTER AREA -->
     <div class="full-width footer-area">
-    <div class="row">
-    <div class="large-12 columns">
-    &copy; 2013
-    </div>
-    </div>
+	    <div class="row">
+		    <div class="large-12 columns">
+		    &copy; 2013
+		    </div>
+	    </div>
     </div>
 
 **第二步：顶部工具栏标记**
@@ -90,39 +90,39 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
     <!-- Nav Wrap -->
     <nav class="top-bar">
-    <ul class="title-area">
-    <!-- Title Area -->
-    <li class="name"></li>
-    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
+	    <ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name"></li>
+	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	    </ul>
     <!-- The Section wrap -->
     <section class="top-bar-section">
-    <!-- Left Nav Section -->
-    <ul class="left">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="#">Our products</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Prices</a></li>
-    <li class="has-dropdown">
-    <a href="#">Features</a>
-    <ul class="dropdown">
-    <li><a href="#">Modalboxes</a></li>
-    <li><a href="#">Submenu's and navigation</a></li>
-    <li><a href="#">Price tables</a></li>
-    <li><a href="#">Buttons</a></li>
-    <li><a href="#">Button groups</a></li>
-    <li><a href="#">Labels, Keystrokes and Tooltips</a></li>
-    <li><a href="#">Alert boxes</a></li>
-    <li><a href="#">Columns</a></li>
-    </ul>
-    </li>
-    <li><a href="#">Contact</a></li>
-    </ul>
-    <!-- Right Nav Section -->
-    <ul class="right"></ul>
+	    <!-- Left Nav Section -->
+	    <ul class="left">
+		    <li class="active"><a href="#">Home</a></li>
+		    <li><a href="#">About us</a></li>
+		    <li><a href="#">Our products</a></li>
+		    <li><a href="#">Portfolio</a></li>
+		    <li><a href="#">Blog</a></li>
+		    <li><a href="#">Prices</a></li>
+		    <li class="has-dropdown">
+			    <a href="#">Features</a>
+			    <ul class="dropdown">
+			    <li><a href="#">Modalboxes</a></li>
+			    <li><a href="#">Submenu's and navigation</a></li>
+			    <li><a href="#">Price tables</a></li>
+			    <li><a href="#">Buttons</a></li>
+			    <li><a href="#">Button groups</a></li>
+			    <li><a href="#">Labels, Keystrokes and Tooltips</a></li>
+			    <li><a href="#">Alert boxes</a></li>
+			    <li><a href="#">Columns</a></li>
+			    </ul>
+		    </li>
+		    <li><a href="#">Contact</a></li>
+	    </ul>
+	    <!-- Right Nav Section -->
+	    <ul class="right"></ul>
     </section>
     </nav>
     
@@ -144,12 +144,12 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 如果你还没做好准备，可以创建一个css文件，命名为`style.css`并且放置到下载下来的Foundation工程下css文件夹下。但别忘记把此引用到`index.html`文件里。如下代码示例：
 
     <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Foundation 4</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/custom.modernizr.js"></script>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width">
+	    <title>Foundation 4</title>
+	    <link rel="stylesheet" href="css/foundation.css">
+	    <link rel="stylesheet" href="css/style.css">
+	    <script src="js/vendor/custom.modernizr.js"></script>
     </head>
   
 这里如果你不把`style.css`放置在`foundation.css`下面，将不会覆盖原来顶部工具栏的样式。
@@ -157,34 +157,34 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 很好，接下来我们要为`header`、`导航`、`内容`和`footer`写一些基础样式，如导航块，我们将添加一张已经下载好的背景图。这些通用样式一般不是很难去实现的，见如下代码示例，我们添加一个class"full-width"到每个区域中，以致于每个区域的宽度都是占满浏览器宽度的。
   
     body {
-    background-color: #ccc;
+    	background-color: #ccc;
     }
     /** Set the backgrounds for the different sections **/
     .header-area {
-    background-color: #2d465c;
-    min-height: 160px;
+    	background-color: #2d465c;
+    	min-height: 160px;
     }
     .navigation-area {
-    background-image: url('../img/navigation-container.jpg');
-    background-repeat: repeat-x;
+    	background-image: url('../img/navigation-container.jpg');
+    	background-repeat: repeat-x;
     }
     .content-area {
-    padding: 50px 0 70px 0;
+    	padding: 50px 0 70px 0;
     }
     .footer-area {
-    background-color: #1f1f1f;
-    color: #fff;
-    min-height: 50px;
-    padding: 20px 0 0 0;
+	    background-color: #1f1f1f;
+	    color: #fff;
+	    min-height: 50px;
+	    padding: 20px 0 0 0;
     }
     .full-width {
-    min-width:100%;
-    position: relative;
+	    min-width:100%;
+	    position: relative;
     }
     h2 {
-    color: #fff;
-    font-weight: normal;
-    margin-top: 50px;
+	    color: #fff;
+	    font-weight: normal;
+	    margin-top: 50px;
     }
 
 **第二部：顶部工具栏样式**
@@ -195,21 +195,21 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
     /** Changes background color, height and margin of the border **/
     .top-bar {
-    background: none;
-    height: 58px;
-    line-height: 58px;
-    margin-bottom: 0;
+	    background: none;
+	    height: 58px;
+	    line-height: 58px;
+	    margin-bottom: 0;
     }
     /** Removes black background on menu bar **/
-    .top-bar-section ul {
-    background: none;
-    text-transform: uppercase;
+	    .top-bar-section ul {
+	    background: none;
+	    text-transform: uppercase;
     }
     /** Removes black background on menu item **/
     .top-bar-section li a:not(.button) {
-    background: none;
-    line-height: 58px;
-    padding: 0 27px;
+	    background: none;
+	    line-height: 58px;
+	    padding: 0 27px;
     }
 
 我们已经移除黑背景了，并且适应高度、行高和内边距，将文字转化为大写字母，这些都是为了适应我们自定义设计。
@@ -218,32 +218,32 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
     /** Changes the active menu item from default black to a gradient **/
     .top-bar-section ul li.active > a {
-    background:  rgb(0, 0, 0);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
-    color: #fff;
+	    background:  rgb(0, 0, 0);
+	    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
+	    color: #fff;
     }
     /** Changes the hover state of non active menu items **/
     .top-bar-section li:hover a {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
-    color: #fff;
+	    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
+	    color: #fff;
     }
     /** Changes non active menu items text color to black **/
     .top-bar-section ul li > a {
-    color: #2d2d2d;
+    	color: #2d2d2d;
     }
     /** Changes the hover state of dropdown menu items **/
     .top-bar-section ul.dropdown li a:hover:not(.button) {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
     }
     /** IMPORTANT fill for the ul dropdown container **/
     .top-bar-section ul.dropdown {
-    background: #333;
-    color: #fff;
+	    background: #333;
+	    color: #fff;
     }
     /** This fixes the position and the color of the dropdown arrow **/
     .top-bar-section .has-dropdown > a:after {
-    border-color: rgba(0, 0, 0, 1) transparent transparent;
-    margin-top: 2.5px;
+	    border-color: rgba(0, 0, 0, 1) transparent transparent;
+	    margin-top: 2.5px;
     }
 
 我们已经改变菜单的好几个地方（样式），如首先，我们就改变激活（active）菜单默认的黑背景为“CSS渐变”，接着给不激活菜单添加hover状态，并改变里面的文字颜色为深灰色，目的是显示得更为清晰。然后`.top-bar-section li:hover `的样式将使得下拉菜单里的子项目被鼠标悬空时显示特定效果。为了完善样式，我们`ul.dropdown`添加一个背景颜色和重新设置下拉菜单箭头的位置，是因为我们内边距适应`.top-bar-section`。
@@ -264,25 +264,25 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
     @media only screen and (max-width: 942px) {
     /* Makes the responsive menu fit in the navigation container and change its background to black */
     .top-bar ul {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: 13px;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    padding-bottom: 13px;
     }
     /* Change non active menu item color to black */
     .top-bar-section ul li > a {
-    color: #fff;
+    	color: #fff;
     }
     /* Gives the dropdown ul a black fill */
     .top-bar-section ul {
-    background: #000;
+    	background: #000;
     }
     /* Give the BACK button after going in a submenu the appropriate filling */
     .top-bar-section .dropdown li.title h5 a {
-    line-height: 57px;
+    	line-height: 57px;
     }
     /* This fixes the position and the color of the dropdown arrow */
     .top-bar-section .has-dropdown > a:after {
-    border-color: rgba(255, 255, 255, 1) transparent transparent;
-    margin-top: 2.5px;
+    	border-color: rgba(255, 255, 255, 1) transparent transparent;
+    	margin-top: 2.5px;
     }
     } /* end media query */
 
