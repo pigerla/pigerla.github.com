@@ -25,15 +25,15 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
 当然，下载完上面提供的背景图片之后，我们把它放在`img`文件夹下，准备好了吗？打开你最喜欢的编辑器然后让我们开始吧！
 
-## 搭起HTML架构 ##
+## 搭起HTML结构 ##
 
-**第一步：通用的标记**
+**第一步：常用的模板**
 
 `index.html`文件里面已经预包含一些HTML代码。你可以保留`<header>`里面的代码，也可以保留所有的脚本（JavaScript）链接（放置在`</body>`标签之前）。保留这些来确保Foundation的网格系统和顶部工具栏可以运行起来。
 
 你可以删掉其他内容代码，我们将采用一种全部宽度的设计，这不是很复杂的，只是需要想到更好的办法来处理它。
 
-好的，我们将编写`header`、`导航`、`主内容`和`footer`区域的内容，我们将给每个区域都添加`class="full-width"`,然后再添加一个块元素` <div class="row">`，块元素里面再添加一个块元素`<div class="large-12 columns">`，这也就是搭起基本的网格架构。
+好的，我们将编写`header`、`导航`、`主内容`和`footer`区域的内容，我们将给每个区域都添加`class="full-width"`,然后再添加一个块元素` <div class="row">`，块元素里面再添加一个块元素`<div class="large-12 columns">`，这也就是搭起基本的网格结构。
 
 **备注：**更多关于网格系统如何运行的，可以回顾教程第二篇：[初学者学习foundation：网格系统](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/11/06/%5B%E8%AF%91%5D%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F)
 
@@ -72,7 +72,7 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
 **第二步：顶部工具栏标记**
 
-在编写样式之前，我们需要编写出一些必须的HTML架构代码使得Foundation顶部工具栏能够正确地运行起来。因此需要**5**样基础元素使得引擎跑起来。
+在编写样式之前，我们需要编写出一些必须的HTML结构代码使得Foundation顶部工具栏能够正确地运行起来。因此需要**5**样基础元素使得引擎跑起来。
 
 - `<nav class="top-bar">`
 - `<ul class="title-area">`
