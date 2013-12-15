@@ -21,7 +21,7 @@ tags : [Foundation入门]
 
 首先，我们将为“Send me spam”单选框添加一个提示工具，如果他们选中单选框时，用来告诉用户更多关于我们将发送邮件的提示信息。
 
-![foundation-tooltip](http://pigerla.com/assets/images/20131202/foundation-tooltip.jpg)
+![foundation-tooltip](http://pigerla.com/assets/images/20131215/foundation-tooltip.jpg)
 
     <label class="has-tip">
 	    <span class="has-tip" title="Don't worry we won't really send you any spam this is just to display a checkbox." data-tooltip="" data-width="300">Send me spam</span>
