@@ -29,7 +29,7 @@ tags : [Foundation入门]
 
 为了更好地说明，我添加两列，宽度都为“large-6”，一列是图片，一列是面板，这样就可以很好地对齐了。
 
-![1](http://pigerla.com/assets/images/2013121/1.png )
+![1](http://pigerla.com/assets/images/20131221/1.png )
 
 ## 价格表格 ##
 
@@ -47,7 +47,7 @@ tags : [Foundation入门]
 
 从代码示例中可以看到，ul元素有一个类“pricing-table”，然后在li元素中倒使用很多类，包括“title”，“price”,“description”,“bullet-item”和“cta-button”。而你只要做的是，定制你的内容。你应该还会添加多个价格表格来起对比的作用。
 
-![2](http://pigerla.com/assets/images/2013121/2.png )
+![2](http://pigerla.com/assets/images/20131221/2.png )
 
 ## 标准表格 ##
 
@@ -76,7 +76,7 @@ tags : [Foundation入门]
 	  </tbody>
 	</table>
 
-![3](http://pigerla.com/assets/images/2013121/3.png )
+![3](http://pigerla.com/assets/images/20131221/3.png )
 
 ## 交换插件 ##
 
@@ -121,7 +121,7 @@ tags : [Foundation入门]
 	    </li>
 	</ol>
 
-![5](http://pigerla.com/assets/images/2013121/5.png ) 
+![5](http://pigerla.com/assets/images/20131221/5.png ) 
 
 每一个li项目都必须添加“data-id”，如果fist stop是一个h2标签，那么你的data-id就是“data-id="title"”了。然后h2元素就要添加一个id为“title”。
 
@@ -133,7 +133,7 @@ tags : [Foundation入门]
 
 有点不足的是，Foundation没有包含一个证明插件或者特性，如果实现这些那就非常方便了，[Quovolver](http://sandbox.sebnitu.com/jquery/quovolver/)可以弥补通过设置一个简单的设置和灵活的标记。在你的页脚中添加脚本,去掉一些标记。
 
-![ 4](http://pigerla.com/assets/images/2013121/4.png )  
+![ 4](http://pigerla.com/assets/images/20131221/4.png )  
 
 ## 下一篇预告 ##
 
