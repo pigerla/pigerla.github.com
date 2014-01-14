@@ -9,13 +9,13 @@ tags : [Foundation入门]
 
 原文作者：[Matt Pilott](http://webdesign.tutsplus.com/author/matt-pilott/) , 2013-10-02
 
-总的来说，使用Sass是一种很好地加速前端开发的途径，在我的每一个项目中都会使用它。Sass(跟其他预编译器一样)是允许嵌套样式、函数编程和支持混合的。Foundation到目前为止出了2还几个版本，之前我们都是在使用最常见的`HTML/CSS`版本，现在我们将讨论如何使用Sass来创建一个版本。
+总的来说，使用Sass是一种很好地加速前端开发的途径，在我的每一个项目中都会使用它。Sass(跟其他预编译器一样)是允许嵌套样式、函数编程和支持混合的。Foundation到目前为止出了几个版本，之前我们都是在使用最常见的`HTML/CSS`版本，现在我们将讨论如何使用Sass来创建一个版本。
 
 <!--break-->
 
 Foundation开发团队不但只是使用Sass来开发更加友好和动态的样式，而且还提供更多定制样式在Sass版本上而不是把`HTML/CSS`版本上。
 
-Sass更加适合一些这样的人，就拿我来说，设计为第一，编码第二。学习HTML和CSS是很简单的，并且能够很快地实现你想要的效果，但是，要从这些学习衔接到更加高级的jQuery和JavaScript却是很困难的。前面提到，使用Sass允许你使用函数编程、支持变量和重用代码，就像使用高级的、动态语言一样。
+Sass更加适合一些这样的人，就拿我来说，设计第一，编码第二。学习HTML和CSS是很简单的，并且能够很快地实现你想要的效果，但是，要从这些学习衔接到更加高级的jQuery和JavaScript却是很困难的。前面提到，使用Sass允许你使用函数编程、支持变量和重用代码，就像使用高级的、动态语言一样。
 
 
 ## 开始：OS X 系统 ##
@@ -95,7 +95,7 @@ Sass更加适合一些这样的人，就拿我来说，设计为第一，编码�
 
 ## 有用的工具 ##
 
-如果你是在OS X系统下开发的，推荐一个很好的开发工具为[CodeKit](http://incident57.com/codekit/)。这个应用会自动地压缩JS,CSS,SCSS-并且把SCSS转化为CSS，也意味着你可以不使用控制台了，就只使用它。CodeKit还提供在JS和SCSS,包括例如jQuery的库类上高亮显示错误。
+如果你是在OS X系统下开发的，推荐一个很好的开发工具为[CodeKit](http://incident57.com/codekit/)。这个应用会自动地压缩JS,CSS,SCSS-并且把SCSS转化为CSS，也意味着你可以不使用控制台了，就只使用它。CodeKit还提供在JS和SCSS,包括例如jQuery的库类上高亮显示错误信息。
 
 ![hero-window](http://pigerla.com/assets/images/20140113/hero-window.png )
 
