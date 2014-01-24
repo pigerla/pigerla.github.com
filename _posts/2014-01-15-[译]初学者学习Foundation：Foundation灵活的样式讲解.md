@@ -11,15 +11,17 @@ tags : [Foundation入门]
 
 在本教程我们将学习包含在Foundation前端框架中的[灵活的Sass样式](http://foundation.zurb.com/docs/sass.html)以及能够用来做些什么。Sass比CSS版本提供更多自定义特性集合，再加上有快捷方式可以简单又快速地运用在样式项目上，例如顶部工具栏。
 
+<!--break-->
+
 如果你需要搭建起Sass的Foundation开发环境，可以参考文章“[使用Sass和Compass配置Foundation](http://dev.tutsplus.com/tutorials/setting-up-foundation-with-sass-and-compass--webdesign-15288)”（参见上篇译文：[初学者学习foundation：使用sass和compass来搭建foundation开发环境](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2014/01/13/%5B%E8%AF%91%5D%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E4%BD%BF%E7%94%A8Sass%E5%92%8CCompass%E6%9D%A5%E6%90%AD%E5%BB%BAFoundation%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)）或者是[Zurb官方文档](http://foundation.zurb.com/docs/sass.html)。你可以通过在控制台输入命令行方式来搭建环境，然后使用Compass和[Bourbon](http://bourbon.io/)（一个简单却轻量级混合Sass库），或者只是[从Github上下载单独Sass文件](https://github.com/zurb/foundation/tree/scss-standalone)，然后放置这些文件在你的工程上，然后通过“import”来引用需要的文件。
 
-![zurb-mixins]({{ ASSET_PATH }}/images/20140115/zurb-mixins.png )
+![zurb-mixins](http://pigerla.com/assets/images/20140115/zurb-mixins.png )
 
 ## 栅格系统 ##
 
 我们先从Foundation的基础 —— 栅格开始，这是一个很好的组件将会向你展示`scss/sass`究竟有多灵活。
 
-![foundationgrid]({{ ASSET_PATH }}/images/20140115/foundationgrid.png )
+![foundationgrid](http://pigerla.com/assets/images/20140115/foundationgrid.png )
 
 举个例子，当在栅格中使用混合（混合，就是使用一些已经写好代码）时，你可以创建自己的类，甚至通过一些简单变量来创建你自己的栅格。我们来看看Foundation提供给你的第一个例子：
 
@@ -92,7 +94,7 @@ tags : [Foundation入门]
 	    }
 	}
 
-![ header1]({{ ASSET_PATH }}/images/20140115/header1.png )
+![ header1](http://pigerla.com/assets/images/20140115/header1.png )
 
 可以看出html是很简洁的，sass完美地计算与嵌套，我设置了最大的宽度，列与列之间的宽度和列的条数。从一个HTML的角度来看，这节省了大量的时间,但背后的布局可能会让人有些迷惑。我们看看在Sass中如何使用按钮。
 
@@ -101,7 +103,7 @@ tags : [Foundation入门]
 使用Sass的好处之一就是你能很快地编写你的样式，并且不用编写重复的代码，从而能节省不少的时间。
 
 
-![foundationbuttons ]({{ ASSET_PATH }}/images/20140115/foundationbuttons.png )
+![foundationbuttons ](http://pigerla.com/assets/images/20140115/foundationbuttons.png )
 
 你可以很快捷地使用按钮样式，就如：
 
@@ -121,7 +123,7 @@ tags : [Foundation入门]
 	}
 
 
-![button.png ]({{ ASSET_PATH }}/images/20140115/button.png )
+![button.png ](http://pigerla.com/assets/images/20140115/button.png )
 
 这只是一个简单的例子,你可能会频繁地使用。最终编译成CSS，可以想象，编写一样的CSS代码比Sass需要更多的时间：
 
@@ -174,7 +176,7 @@ tags : [Foundation入门]
 当谈到Foundation，你可能关注Sass，CSS，HTML和JavaScript。但是我们不能忘记一个重要的Web设计解决方案就是图片，特别是png和jpg格式文件。优化图片在web开发中是非常重要的，因此可以使用[ imageOptim](http://imageoptim.com/)(OS X系统)或者是[File Optimizer](http://www.softpedia.com/get/PORTABLE-SOFTWARE/System/File-management/File-Optimizer.shtml)(Windows系统)。
 
 这个工具可以无损地压缩图片，是非常高效且压缩率是很高的，可高达70%，就好比，原来需要加载100k的图片，现在只需要加载30k即可，这对合并在一起的图片压缩更加高效。
-！[ image-compress]({{ ASSET_PATH }}/images/20140115/image-compress.png )
+！[ image-compress](http://pigerla.com/assets/images/20140115/image-compress.png )
 
 ## 下一篇预告 ##
 
