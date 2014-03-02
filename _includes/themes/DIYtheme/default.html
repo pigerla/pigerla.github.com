@@ -1,72 +1,139 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <title>{{ page.title }} | 简约不简单</title>
-   <meta name="author" content="{{ site.author.name }}" />
-   <meta name="keywords" content="{{ site.author.name }}技术博客，关注前端技术，学习前端开发" />
-   <meta name="description" content="集个人学习心得、翻译国外优秀文章等等" />
-   <!-- 添加网址logo icon-->
-   <link rel="Shortcut Icon" href="{{ root_url }}/assets/images/favicon.ico" />
-   <link rel="start" href="{{ HOME_PATH }}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>{{ page.title }} | 简约不简单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author.name }}"/>
+    <meta name="keywords" content="{{ site.author.name }}技术博客，关注前端技术，学习前端开发"/>
+    <meta name="description" content="集个人学习心得、翻译国外优秀文章等等"/>
+    <!-- 添加网址logo icon-->
+    <link rel="Shortcut Icon" href="{{ root_url }}/assets/images/favicon.ico"/>
+    <link rel="start" href="{{ HOME_PATH }}"/>
 
-	{% if page.keywords %}
-	<meta name="keywords" content="{{ page.keywords }}">
-	{% endif %}
-	
-	{% if site.author.feedburner %}
-  	<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}" title="RSS feed" />
-	{% endif %}
-	{% if page.feed %}
-  	<link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed" />
-	{% endif %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
+
+    {% if site.author.feedburner %}
+    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}"
+          title="RSS feed"/>
+    {% endif %}
+    {% if page.feed %}
+    <link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed"/>
+    {% endif %}
 
     <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.min.css" type="text/css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.min.css" type="text/css"/>
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.min.css" type="text/css" />
-   <!-- Homepage_post css,called page.css-->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css" />
-   <!--添加搜索样式-->
-   <link rel="stylesheet" href="http://pigerla.com/assets/css/jquery-ui.css" type="text/css" />
-   <!--使得适应-->
-   <style type="text/css">
-      .ui-menu-item{list-style-type: none;}.ui-menu-item a, #search {color: #21759b;}.ui-menu-item a:hover{color: #2b9b0c;cursor:pointer;background: white;border-color:silver !important;}#search:focus {border-color: #66afe9;outline: 0;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);}.ui-corner-all{-moz-border-radius: 0;-webkit-border-radius: 0;Unknown property name.-khtml-border-radius: 0;border-radius: 0;}code{word-wrap: break-word;font-size: 1.5em;font-family: arial,"微软雅黑";} p code{font-size: 18px;}.ui-menu .ui-menu-item a {border: 1px solid #fff;}
-      #backToTop{display:block;width:50px;text-align:center;line-height:50px;position:fixed;bottom:50px;right:150px;border-radius:10px;text-decoration:none;border:1px solid silver;display:none;}
-      #backToTop span{display:block;width:50px;color: #2b9b0c;font-size:40px;}#backToTop span:hover{color: #21759b;}
-   </style>
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.min.css" type="text/css"/>
+    <!-- Homepage_post css,called page.css-->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css"/>
+    <!--添加搜索样式-->
+    <link rel="stylesheet" href="http://pigerla.com/assets/css/jquery-ui.css" type="text/css"/>
+    <!--使得适应-->
+    <style type="text/css">
+        .ui-menu-item {
+            list-style-type: none;
+        }
+
+        .ui-menu-item a, #search {
+            color: #21759b;
+        }
+
+        .ui-menu-item a:hover {
+            color: #2b9b0c;
+            cursor: pointer;
+            background: white;
+            border-color: silver !important;
+        }
+
+        #search:focus {
+            border-color: #66afe9;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+        }
+
+        .ui-corner-all {
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+            Unknown property name . -khtml-border-radius : 0;
+            border-radius: 0;
+        }
+
+        code {
+            word-wrap: break-word;
+            font-size: 1.5em;
+            font-family: arial, "微软雅黑";
+        }
+
+        p code {
+            font-size: 18px;
+        }
+
+        .ui-menu .ui-menu-item a {
+            border: 1px solid #fff;
+        }
+
+        #backToTop {
+            display: block;
+            width: 50px;
+            text-align: center;
+            line-height: 50px;
+            position: fixed;
+            bottom: 50px;
+            right: 150px;
+            border-radius: 10px;
+            text-decoration: none;
+            border: 1px solid silver;
+            display: none;
+        }
+
+        #backToTop span {
+            display: block;
+            width: 50px;
+            color: #2b9b0c;
+            font-size: 40px;
+        }
+
+        #backToTop span:hover {
+            color: #21759b;
+        }
+    </style>
 
 </head>
 <body id="{{ page.section }}">
 <div id="site">
-  
-  <div id="header">
-    <h1>
-    	<a href="{{ HOME_PATH }}" title="{{ site.author.name }}">{{ site.author.name }}</a>	 
-    </h1>
-    <p>{{ site.title }}</p>
-    <ul class="nav">
-      <li><a class="home" href="{{ HOME_PATH }}">首页</a></li>
-      <li><a  href="/archive.html">时间</a></li>
-      <li><a  href="/pages.html">页面</a></li>
-      <li><a  href="/categories.html">分类</a></li>
-      <li><a  href="/tags.html">标签</a></li>
-      <li><a  href="http://1.spyresume.sinaapp.com/" target="_blank">简历</a></li>
-      <li><a  href="http://1.countdown.sinaapp.com/" target="_blank">作品</a></li>
-      <li><input type="text"  id="search" size="20" placeholder="Search the Posts" results="0"></li>
-    </ul>
-  </div>
 
-  {{ content }}
+    <div id="header">
+        <!--<h1>-->
+            <!--<a href="{{ HOME_PATH }}" title="{{ site.author.name }}">{{ site.author.name }}</a>-->
+        <!--</h1>-->
+
+        <!--<p>{{ site.title }}</p>-->
+        <ul class="nav">
+            <li><a class="home" href="{{ HOME_PATH }}">首页</a></li>
+            <li><a href="/archive.html">时间</a></li>
+            <li><a href="/pages.html">页面</a></li>
+            <li><a href="/categories.html">分类</a></li>
+            <li><a href="/tags.html">标签</a></li>
+            <li><a href="http://1.spyresume.sinaapp.com/" target="_blank">简历</a></li>
+            <li><a href="http://1.countdown.sinaapp.com/" target="_blank">作品</a></li>
+            <li><input type="text" id="search" size="20" placeholder="Search the Posts" results="0"></li>
+        </ul>
+    </div>
+
+    {{ content }}
 
     <!--回到顶部按钮-->
-    <a id="backToTop" href="#"><span>∧</span></a>
+    <a id="backToTop" href="javascript:void(0);"><span>∧</span></a>
 
-  <div id="footer">
-  	<address>
+    <div id="footer">
+        <address>
   		<span class="copyright">
   			Content by <a href="http://pigerla.com">{{ site.author.name }}</a>. Design by 
   			<a href="http://pigerla.com">{{ site.author.name }}</a>
@@ -75,23 +142,27 @@
   		<span class="engine">
   			Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a>
   		</span>
-  	</address>
-  </div>
-  
+        </address>
+    </div>
+
 </div>
 
 <!--[if IE 6]>
-<script type="text/javascript"> 
-	/*Load jQuery if not already loaded*/ if(typeof jQuery == 'undefined'){ document.write("<script type=\"text/javascript\"   src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></"+"script>"); var __noconflict = true; } 
-	var IE6UPDATE_OPTIONS = {
-		icons_path: "http://static.ie6update.com/hosted/ie6update/images/"
-	}
+<script type="text/javascript">
+    /*Load jQuery if not already loaded*/
+    if (typeof jQuery == 'undefined') {
+        document.write("<script type=\"text/javascript\"   src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></" + "script>");
+        var __noconflict = true;
+    }
+    var IE6UPDATE_OPTIONS = {
+        icons_path: "http://static.ie6update.com/hosted/ie6update/images/"
+    }
 </script>
 <script type="text/javascript" src="http://static.ie6update.com/hosted/ie6update/ie6update.js"></script>
 <![endif]-->
-  <!--引入搜索js-->
-  <script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
-  <script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
+<!--引入搜索js-->
+<script type="text/javascript" src="http://pigerla.com/assets/js/jquery.js"></script>
+<script type="text/javascript" src="http://pigerla.com/assets/js/jquery-ui.js"></script>
 <script type="text/javascript">
     $(function () {
         $.ajax({
@@ -116,20 +187,24 @@
                 });
             }
         });
-
-        $(window).scroll(function () {  //只要窗口滚动,就触发下面代码
-            var scrollTop = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度
-            if (scrollTop > 600) {  //判断滚动后高度超过600px,就显示
+        //只要窗口滚动,就触发下面代码
+        $(window).scroll(function () {
+            //获取滚动后的高度
+            var scrollTop = document.documentElement.scrollTop + document.body.scrollTop;
+            if (scrollTop > 600) {
+                //判断滚动后高度超过600px,就显示
                 $("#backToTop").fadeIn(400); //淡出
             } else {
-                $("#backToTop").stop().fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
+                //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
+                $("#backToTop").stop().fadeOut(400);
             }
         });
-        $("#backToTop").click(function () { //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
+        $("#backToTop").click(function () {
+            //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
             $("html,body").animate({scrollTop: "0px"}, 200);
         });
     });
 </script>
-  {% include JB/analytics %}
+{% include JB/analytics %}
 </body>
 </html>

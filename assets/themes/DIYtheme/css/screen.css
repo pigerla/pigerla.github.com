@@ -15,7 +15,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family:Arial，Palatino, georgia, "times new roman", serif;
-	background-color: whitesmoke;
+	background-color: #e8e8e8;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
 }
@@ -75,9 +75,9 @@ sup { line-height: 1ex; }
 
 /* More experimental CSS3 features */
 #page, #disqus_thread {
-	box-shadow: 2px 2px 8px #aaa;
-	-webkit-box-shadow: 2px 2px 8px #aaa;
-	-moz-box-shadow: 2px 2px 8px #aaa;	
+	box-shadow: 1px 1px 2px #aaa;
+	-webkit-box-shadow: 1px 1px 2px #aaa;
+	-moz-box-shadow: 1px 1px 2px #aaa;
 }
 
 /*>>>>padding-top: 0;改为padding-top: 1em;*/
@@ -198,37 +198,14 @@ ul.compact li a {
 #header:hover a:hover { text-decoration: none; }
 
 #header {
-	position: relative;
-	/*font-variant: small-caps;这个表示是头部的字符都大写，并且第一个字符超大*/
-	margin-top: 1.5em;
-	margin-bottom: 0.5em;
-	padding: 2em 3em 0 3em;
-	/*以下是我添加的*/
 	background: white;
-	border: 1px solid #ccc;
-    /* 框框阴影 */
-	box-shadow: 2px 2px 8px #aaa;
-	-webkit-box-shadow: 2px 2px 8px #aaa;
-	-moz-box-shadow: 2px 2px 8px #aaa;
 }
-
-#header h1 {
-	/*line-height: 0.9em;-> 2em*/
-	font-size: 4em;
-	display: block;
-	font-weight: normal;
-}
-#header h1:hover {
-	color: black; text-shadow: #aaa 2px 2px 3px;
-}
-
 #header ul {
 	font-size: 100%;
 	line-height: 3em;
 	display: block;
 	border-top: 1px solid silver;
     border-bottom: 1px solid silver;
-    padding-left: 0;
 }
 #header ul li { display: inline; font-size: 1.2em;}
 #header ul li a {
