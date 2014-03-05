@@ -61,6 +61,9 @@ sup { line-height: 1ex; }
     line-height:1.5em;
 }
 
+.page{
+    margin-top: 4em;
+}
 #page, #disqus_thread {
     margin: 1.5em auto 3em auto;
     background: white;
@@ -145,16 +148,7 @@ caption {
     line-height: 1.14em;
     text-align: justify;
 }
-
-/* @end */
-
 /* @group Lists */
-ul {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    line-height: 1.5em;
-    padding-left: 1.5em;
-}
 ul li {
     list-style-type: square;
     list-style-position: outside;
@@ -182,8 +176,8 @@ ul.compact li a {
 /* @end */
 
 /* @group Header */
-#header, #header a { color: #48A9E7;}
-#header:hover a:hover { color: #fff;text-decoration: none; }
+#header a { color: #48A9E7;}
+#header a:hover { color: #fff;text-decoration: none; }
 
 #header {
     width: 100%;
@@ -431,14 +425,11 @@ p.delicious-extended:before { content: ' — '; }
 
 /* @group Footer */
 #footer {
-    margin-top: 0;
     color: grey;
-    font-size: 87.5%;
-    line-height: 1.3em;
 }
 #footer address {
     position: relative;
-    margin: .5em 0 0 0;
+    margin: .2em 0 0 0;
     text-align: right;
 }
 #footer a {
