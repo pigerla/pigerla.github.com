@@ -11,7 +11,7 @@ HTML5本地存储API中的`localStorage`和`sessionStorage`在使用方法上是
 
 接下来就以localStorage为例，会对此展开基本使用方法的介绍。
 
-## localStorage.setItem(key,value) ##
+### localStorage.setItem(key,value) ###
 
 个人觉得`localStorage API`的使用方法简单易懂的，首先要知道，localStorage本地保存数据是以`(key,value)`（键值对）的形式来保存的。调用`setItem(key,value)`即可保存一个键值对数据。打开`chrome`的`Console`输入如下代码：
 <!--break-->
@@ -28,7 +28,7 @@ localStorage.setItem("array",[1,2,3,4,5]);
 
 从上面的代码可以看到，`setItem`可以直接保存基本数据类型和引用数据类型。是不是很方便，而且从字面上理解`set`就是要设置，也即是保存；`Item`就是数据项，因此`setItem`就是保存数据的意思。
 
-## localStorage.getItem(key) ##
+### localStorage.getItem(key) ###
 
 取出value的值是使用`localStorage.getItem(key)`的，先观察如下代码以及输出：
 
@@ -53,14 +53,14 @@ localStorage.getItem("pigerla.com");
 
 首先我们也很容易理解，`get`一词就是带有`拿、取出`的意思，注意的是getItem里面的参数是key,如果你输入的是value值，那只会返回`null`。
 
-## 如何清除掉本地存储数据？ ##
+### 如何清除掉本地存储数据？ ###
 
 清除数据分为一次性清除和个别清除。
 
 1. **一次性清除**：使用`localStorage.clear()`，使用`clear()`方法会所有保存数据都清除掉，因此此操作是危险性的，除非你真想这么做。
 2. **个别清除** ：使用`localStorage.removeItem(key)`,如何个别清除？这个要看你如何去遍历数据、设定条件，然后执行此操作。
 
-## 遍历保存在本地的数据 ##
+### 遍历保存在本地的数据 ###
 
 localStorage也是有长度的，如何知道呢？这里HTML5也提供的简单的接口：调用`length`属性即可。
 
@@ -94,7 +94,7 @@ localStorage.getItem(localStorage.key(1));
 
 {% endhighlight %}
 
-## localStorage的存储大小以及溢出检测 ##
+### localStorage的存储大小以及溢出检测 ###
 
 一般来说，localStorage的存储大小为`4M`,相对cookies来说是大了很多很多，因此存储的数据量也就更多了。
 
@@ -115,6 +115,6 @@ try{
 
 {% endhighlight %}
 
-## 总结 ##
+### 总结 ###
 
 当时，我使用localStorage相关API的时候，文章[HTML5 本地存储 localStorage、sessionStorage 的遍历、存储大小限制处理](http://lzw.me/a/html5-localstorage.html "HTML5 本地存储 localStorage、sessionStorage 的遍历、存储大小限制处理")对我帮助很大，我也是重新按照自己的思路整理，并编写成自己的blog，同时也可以记录自己的学习过程。

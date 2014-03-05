@@ -78,6 +78,7 @@ div.post-left div.post-date span {
 	color: silver;
 	font-size: 1em;
 	font-weight: normal;
+    margin: 0 auto 0.5em;
 }
 
 /* 文章摘要的样式 */
