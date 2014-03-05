@@ -1,12 +1,9 @@
 /* 全局样式 */
 .post {
 	display: inline-block;
-
-	/* 每篇文章的下面的分界线 */
-	border-bottom: 1px solid silver; 
-	/* 分界线上下预留一些空间 */
+    width: 100%;
+    border-top: 1px solid #c8c7c7;
 	padding-bottom: 1em;
-	margin-bottom: 2em;
 }
 
 /* “继续阅读”的样式 */
@@ -25,7 +22,7 @@
 	width: 75px;
 	float: left;
 	color: rgb(206, 206, 206);
-	padding: 4px 10px 0px 0px;
+	padding: 1em 10px 0 0;
 	margin-right: 21px;
 	border-right: 2px solid rgb(206, 206, 206);
 	text-align: right;
@@ -54,6 +51,7 @@ div.post-left div.post-date span {
 /* 文章右侧样式 */
 .post-right {
 	/*出发BFC,形成独立块，同时响应式*/
+    padding-top: 1em;
 	overflow: hidden;
 	margin: 0;
 	position: relative;

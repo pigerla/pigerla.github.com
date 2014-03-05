@@ -61,7 +61,7 @@ sup { line-height: 1ex; }
     line-height:1.5em;
 }
 
-.page{
+#page{
     margin-top: 4em;
 }
 #page, #disqus_thread {
