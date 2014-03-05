@@ -62,11 +62,15 @@ sup { line-height: 1ex; }
 }
 
 #page, #disqus_thread {
-    max-width: 64em;
     margin: 1.5em auto 3em auto;
     background: white;
     padding: 3em 3em 1.5em 3em;
     border: 1px solid #ccc;
+}
+
+#page,#footer,.ds-thread{
+    width: 60em;
+    margin: 0 auto;
 }
 
 /* More experimental CSS3 features */
@@ -179,7 +183,7 @@ ul.compact li a {
 
 /* @group Header */
 #header, #header a { color: #48A9E7;}
-#header:hover a:hover { color: #fff; }
+#header:hover a:hover { color: #fff;text-decoration: none; }
 
 #header {
     width: 100%;
@@ -197,7 +201,7 @@ ul.compact li a {
     margin-bottom: 0;
 }
 #header ul {
-    width: 64em;
+    width: 60em;
     height: 100%;
     margin: 0 auto;
     position: relative;
