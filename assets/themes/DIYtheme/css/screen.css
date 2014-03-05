@@ -11,6 +11,9 @@
 
 /* @全局reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
+ul,ol{
+    margin-left: 1em;
+}
 /* @结束 */
 
 body {
@@ -18,6 +21,7 @@ body {
     background-color: #e8e8e8;
     background-position: center -18em;
     background-repeat: repeat-x;
+    color: #444;
 }
 /*自定义图片的宽度*/
 body img { width: 720px;}
@@ -26,25 +30,10 @@ img { -ms-interpolation-mode:bicubic; }
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
-p { margin-top:0.5em; text-align: justify; }
+p { margin-top:0.5em; text-align: justify;text-indent: 1em; }
 
 a { text-decoration: none; color: #48A9E7; }
 a:hover { text-decoration: underline;}
-
-h1,h2,h3,h4 {
-    line-height:1em;
-    font-size:1.5em;
-    font-weight: normal;
-    clear: left;
-    font-family: 'lucida grande', sans-serif;
-}
-h1 { margin-bottom: 1em; }
-h2 {
-    font-size: 100%;
-    line-height: 1.5em;
-    margin:1.5em 0 1.5em 0;
-    font-weight:bold;
-}
 
 hr {
     border-top: 1px solid silver;
