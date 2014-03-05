@@ -24,7 +24,7 @@
 	color: rgb(206, 206, 206);
 	padding: 1em 10px 0 0;
 	margin-right: 21px;
-	border-right: 2px solid rgb(206, 206, 206);
+	border-right: 1px solid #c8c7c7;
 	text-align: right;
 }
 /* 时间被鼠标经过的样式 */
@@ -83,7 +83,6 @@ div.post-left div.post-date span {
 
 /* 文章摘要的样式 */
 .post-overview-right {
-	margin-top: -10px;
 	float: left;
 }
 

@@ -26,7 +26,7 @@ img { -ms-interpolation-mode:bicubic; }
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
-p { margin: 0 0 1.5em 0; text-align: justify; }
+p { margin-top:0.5em; text-align: justify; }
 
 a { text-decoration: none; color: #339; }
 a:hover { text-decoration: underline; color: #33f; }
@@ -77,9 +77,9 @@ sup { line-height: 1ex; }
 }
 /* More experimental CSS3 features */
 #page, #disqus_thread {
-    box-shadow: 1px 1px 2px #aaa;
-    -webkit-box-shadow: 1px 1px 2px #aaa;
-    -moz-box-shadow: 1px 1px 2px #aaa;
+    box-shadow: 0 2px 6px #aaa;
+    -webkit-box-shadow: 0 2px 6px #aaa;
+    -moz-box-shadow: 0 2px 6px #aaa;
 }
 
 #disqus_thread { padding-top: 1em; margin-top: 0.5em; }
@@ -104,7 +104,7 @@ sup { line-height: 1ex; }
 .inset {
     border: 1px solid silver;
     padding: 2px;
-    margin: 0em 0.8em 0.8em 0.8em;
+    margin: 0 0.8em 0.8em;
 }
 .right.inset { margin-right: 0 !important; }
 .left.inset { margin-left: 0 !important; }
