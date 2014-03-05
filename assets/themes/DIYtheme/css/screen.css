@@ -198,11 +198,13 @@ ul.compact li a {
 }
 #header ul {
     width: 64em;
+    height: 100%;
     margin: 0 auto;
     position: relative;
 }
 #header ul li { display: inline; font-size: 1.2em;}
 #header ul li a {
+    line-height: 49px;
     padding: 0.4em 0.3em 0 0.3em;
     display: inline;
 }
