@@ -9,12 +9,11 @@
 /* “继续阅读”的样式 */
 .post a {
 	font-family: "微软雅黑", "Open Sans","Ubuntu", Helvetica, Arial, sans-serif;
-	color: #21759b; 
+	color: #48A9E7;
 }
 /* “继续阅读” 鼠标经过的样式 */
 .post a:hover {
 	text-decoration: underline;
-	color: rgb(43, 155, 12);
 }
 
 /* 文章左侧的时间 */
@@ -29,7 +28,7 @@
 }
 /* 时间被鼠标经过的样式 */
 .post-left:hover {
-	color: #21759b;
+	color: #48A9E7;
 }
 /* 文章左侧的“日”期 */
 .post-date {
@@ -65,14 +64,14 @@ div.post-left div.post-date span {
 	font-size: 2em;
 }
 #post-title a {
-	color: rgb(43, 155, 12);
+	color: #48A9E7;
 	text-decoration: none;
 }
 /* 文章标题经过的样式 */
 #post-title a:hover {
 	text-decoration: none;
 	color: #21759b;
-	border-bottom: 1px solid #21759b;
+	border-bottom: 1px solid #48A9E7;
 }
 .post-right h6 {
 	font-family: 'CabinRegular',Arial;

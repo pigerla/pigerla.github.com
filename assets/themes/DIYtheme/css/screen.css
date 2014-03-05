@@ -28,8 +28,8 @@ img { -ms-interpolation-mode:bicubic; }
 html>body { font-size:16px; }
 p { margin-top:0.5em; text-align: justify; }
 
-a { text-decoration: none; color: #339; }
-a:hover { text-decoration: underline; color: #33f; }
+a { text-decoration: none; color: #48A9E7; }
+a:hover { text-decoration: underline;}
 
 h1,h2,h3,h4 {
     line-height:1em;
@@ -499,11 +499,11 @@ img.maruku-png { }
     float:left;
 }
 .tag_box a {
-    padding: 3px 6px;
+    padding: 3px;
     margin: 2px;
     background: #eee;
     border-radius: 3px;
-    border:1px dashed #ccc;
+    border:1px dashed #48A9E7;
     text-decoration:none;
 }
 .tag_box a span{
