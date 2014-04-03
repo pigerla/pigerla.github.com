@@ -1,131 +1,126 @@
-/* 全局样式 */
 .post {
-	display: inline-block;
+    display: inline-block;
     width: 100%;
     border-top: 1px solid #c8c7c7;
-	padding-bottom: 1em;
+    padding-bottom: 1em
 }
 
-/* “继续阅读”的样式 */
 .post a {
-	font-family: "微软雅黑", "Open Sans","Ubuntu", Helvetica, Arial, sans-serif;
-	color: #48A9E7;
+    font-family: "微软雅黑", "Open Sans", "Ubuntu", Helvetica, Arial, sans-serif;
+    color: #48a9e7
 }
-/* “继续阅读” 鼠标经过的样式 */
+
 .post a:hover {
-	text-decoration: underline;
+    text-decoration: underline
 }
 
-/* 文章左侧的时间 */
 .post-left {
-	width: 75px;
-	float: left;
-	color: rgb(206, 206, 206);
-	padding: 1em 10px 0 0;
-	margin-right: 21px;
-	border-right: 1px solid #c8c7c7;
-	text-align: right;
-}
-/* 时间被鼠标经过的样式 */
-.post-left:hover {
-	color: #48A9E7;
-}
-/* 文章左侧的“日”期 */
-.post-date {
-	padding-top: 10px;
-	font-family: "CabinBold",Arial,sans;
-	font-size: 400%;
-	line-height: 32px;
-	text-align: center;
-	letter-spacing: -2px;
+    width: 75px;
+    float: left;
+    color: #cecece;
+    padding: 1em 10px 0 0;
+    margin-right: 21px;
+    border-right: 1px solid #c8c7c7;
+    text-align: right
 }
 
-/* 文章左侧的“月” “年” 样式 */
+.post-left:hover {
+    color: #48a9e7
+}
+
+.post-date {
+    padding-top: 10px;
+    font-family: "CabinBold", Arial, sans;
+    font-size: 400%;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -2px
+}
+
 div.post-left div.post-date span {
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 0px;
+    letter-spacing: 0
 }
 
-/* 文章右侧样式 */
 .post-right {
-	/*出发BFC,形成独立块，同时响应式*/
     padding-top: 1em;
-	overflow: hidden;
-	margin: 0;
-	position: relative;
-}
-/* 文章标题样式 */
-#post-title {
-	color: rgb(43, 155, 12);
-	margin: 0px 0px 9px;
-	padding: 0px;
-	font-family: 'CabinRegular',Arial;
-	font-size: 2em;
-}
-#post-title a {
-	color: #48A9E7;
-	text-decoration: none;
-}
-/* 文章标题经过的样式 */
-#post-title a:hover {
-	text-decoration: none;
-	color: #21759b;
-	border-bottom: 1px solid #48A9E7;
-}
-.post-right h6 {
-	font-family: 'CabinRegular',Arial;
-	color: silver;
-	font-size: 1em;
-	font-weight: normal;
-    margin: 0 auto 0.5em;
+    overflow: hidden;
+    margin: 0;
+    position: relative
 }
 
-/* 文章摘要的样式 */
+#post-title {
+    color: #2b9b0c;
+    margin: 0 0 9px;
+    padding: 0;
+    font-family: 'CabinRegular', Arial;
+    font-size: 2em
+}
+
+#post-title a {
+    color: #48a9e7;
+    text-decoration: none
+}
+
+#post-title a:hover {
+    text-decoration: none;
+    color: #21759b;
+    border-bottom: 1px solid #48a9e7
+}
+
+.post-right h6 {
+    font-family: 'CabinRegular', Arial;
+    color: silver;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 auto .5em
+}
+
 .post-overview-right {
-	float: left;
+    float: left
 }
 
 .ui-menu-item {
-    list-style-type: none;
+    list-style-type: none
 }
 
 .ui-menu-item a, #search {
-    color: #21759b;
+    color: #21759b
 }
 
 .ui-menu-item a:hover {
     color: #2b9b0c;
     cursor: pointer;
     background: white;
-    border-color: silver !important;
+    border-color: silver !important
 }
 
 #search:focus {
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
 }
 
 .ui-corner-all {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    border-radius: 0;
+    border-radius: 0
 }
 
 code {
     word-wrap: break-word;
     font-size: 1.5em;
-    font-family: arial, "微软雅黑";
+    font-family: arial, "微软雅黑"
 }
 
 p code {
-    font-size: 18px;
+    font-size: 18px
 }
 
 .ui-menu .ui-menu-item a {
-    border: 1px solid #fff;
+    border: 1px solid #fff
 }
 
 #backToTop {
@@ -139,21 +134,24 @@ p code {
     border-radius: 10px;
     text-decoration: none;
     border: 1px solid silver;
-    -moz-transition: right 0.5s;
-    -webkit-transition: right 0.5s;
-    -o-transition: right 0.5s;
-    -ms-transition: right 0.5s;
-    transition: right 0.5s;
+    -moz-transition: right .5s;
+    -webkit-transition: right .5s;
+    -o-transition: right .5s;
+    -ms-transition: right .5s;
+    transition: right .5s
 }
-#backToTop:hover{
-    background: #fff;
+
+#backToTop:hover {
+    background: #fff
 }
+
 #backToTop span {
     display: block;
     width: 50px;
     color: #2b9b0c;
-    font-size: 40px;
+    font-size: 40px
 }
+
 #backToTop span:hover {
-    color: #21759b;
+    color: #21759b
 }
