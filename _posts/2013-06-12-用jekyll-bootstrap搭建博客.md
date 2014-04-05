@@ -10,9 +10,13 @@ RT，借助[Github Pages](https://pages.github.com/)搭建个人博客。这里�
 
 <!--break-->
 
+
 - 在这里默认你懂得使用github的基本操作，如commit、add、push和pull等，懂得如何创建repositories（仓库，也即是一个项目工程），Github Pages不是新技术，而是你要按照特定的repositories（仓库）命名规则才能得到个人主页，命名规则如下：
 
-1. 创建一个repository，并命名为 xxxx.github.com，其中xxxx表示你的github帐号名 ，如我的：pigerla.github.com,其他默认即可。[![例图 : create_repository](http://pigerla.com/assets/images/20130612/create_repository.jpg)]
+1. 创建一个repository，并命名为 xxxx.github.com，其中xxxx表示你的github帐号名 ，如我的：pigerla.github.com,其他默认即可。
+
+[![例图 : create_repository](http://pigerla.com/assets/images/20130612/create_repository.jpg)]
+
 2. 创建成功之后，在该repository的根目录下新建一个“index.html”文件，此文件就是你托管在Github上的个人网站的主页。可以用编辑器打开index.html，并编写测试代码，并保存。例如：
 	<h1>Hello World</h1>
 
@@ -29,7 +33,9 @@ RT，借助[Github Pages](https://pages.github.com/)搭建个人博客。这里�
 ## 搭建步骤：
 
 
-1. 先将repository根目录下所有文件删除，再使用Git命令：git clone [https://github.com/plusjade/jekyll-bootstrap.git](https://github.com/plusjade/jekyll-bootstrap "Github上源代码")将jekyll-bootstrap下载到本地xxxx.github.com文件上，打开jekyll-bootstrap文件夹，并将里面所有的文件拷贝出来放在根目录下，并把jekyll-bootstrap文件夹删除。如截图：[![例图 : use_jekyll-bootstrap](http://pigerla.com/assets/images/20130612/use_jekyll-bootstrap.jpg)]
+1. 先将repository根目录下所有文件删除，再使用Git命令：git clone [https://github.com/plusjade/jekyll-bootstrap.git](https://github.com/plusjade/jekyll-bootstrap "Github上源代码")将jekyll-bootstrap下载到本地xxxx.github.com文件上，打开jekyll-bootstrap文件夹，并将里面所有的文件拷贝出来放在根目录下，并把jekyll-bootstrap文件夹删除。如截图：
+
+[![例图 : use_jekyll-bootstrap](http://pigerla.com/assets/images/20130612/use_jekyll-bootstrap.jpg)]
 
 2. 再重新push到Github上去，很快地，在浏览器输入xxxx.github.com，就可以看到你的个人Blog了，当然显示的是别人写的样式与内容。想把自己的blog弄出特色，个性。建议你好好阅读一下[jekyll官方文档](http://jekyllrb.com/docs/home/ "点击可查看官方文档")。
 
