@@ -16,7 +16,13 @@ module.exports = function (grunt) {
 //合并css
             combineCSS: {
                 files: {
-                    '../assets/css/combine.min.css': ['../assets/themes/DIYtheme/css/syntax.min.css', '../assets/themes/DIYtheme/css/screen.min.css', '../assets/themes/DIYtheme/css/page.min.css']
+                    '../assets/css/combine.min.css': [
+                        '../assets/themes/DIYtheme/css/syntax.min.css',
+                        '../assets/themes/DIYtheme/css/screen.min.css',
+                        '../assets/themes/DIYtheme/css/page.min.css',
+                        '../assets/css/base.css',
+                        '../assets/css/common.css'
+                    ]
                 }
             }
         },
