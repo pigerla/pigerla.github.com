@@ -239,7 +239,7 @@ ul.compact li a {
     _position: absolute;
     top: 0;
     left: 0;
-    background: url(../../../images/page/nav_bg.jpg) repeat-x 0 0;
+    background: url(../images/page/nav_bg.jpg) repeat-x 0 0;
     z-index: 9999;
     margin-bottom: 0
 }
