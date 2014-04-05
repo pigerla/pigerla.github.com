@@ -1,3 +1,189 @@
+.highlight {
+    background: #fff
+}
+
+.highlight .c {
+    color: #998;
+    font-style: italic
+}
+
+.highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2
+}
+
+.highlight .k, .highlight .o {
+    font-weight: 700
+}
+
+.highlight .cm {
+    color: #998;
+    font-style: italic
+}
+
+.highlight .cp {
+    color: #999;
+    font-weight: 700
+}
+
+.highlight .c1 {
+    color: #998;
+    font-style: italic
+}
+
+.highlight .cs {
+    color: #999;
+    font-weight: 700;
+    font-style: italic
+}
+
+.highlight .gd {
+    color: #000;
+    background-color: #fdd
+}
+
+.highlight .gd .x {
+    color: #000;
+    background-color: #faa
+}
+
+.highlight .ge {
+    font-style: italic
+}
+
+.highlight .gr {
+    color: #a00
+}
+
+.highlight .gh {
+    color: #999
+}
+
+.highlight .gi {
+    color: #000;
+    background-color: #dfd
+}
+
+.highlight .gi .x {
+    color: #000;
+    background-color: #afa
+}
+
+.highlight .go {
+    color: #888
+}
+
+.highlight .gp {
+    color: #555
+}
+
+.highlight .gs {
+    font-weight: 700
+}
+
+.highlight .gu {
+    color: #aaa
+}
+
+.highlight .gt {
+    color: #a00
+}
+
+.highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr {
+    font-weight: 700
+}
+
+.highlight .kt {
+    color: #458;
+    font-weight: 700
+}
+
+.highlight .m {
+    color: #099
+}
+
+.highlight .s {
+    color: #d14
+}
+
+.highlight .na {
+    color: teal
+}
+
+.highlight .nb {
+    color: #0086B3
+}
+
+.highlight .nc {
+    color: #458;
+    font-weight: 700
+}
+
+.highlight .no {
+    color: teal
+}
+
+.highlight .ni {
+    color: purple
+}
+
+.highlight .ne, .highlight .nf {
+    color: #900;
+    font-weight: 700
+}
+
+.highlight .nn {
+    color: #555
+}
+
+.highlight .nt {
+    color: navy
+}
+
+.highlight .nv {
+    color: teal
+}
+
+.highlight .ow {
+    font-weight: 700
+}
+
+.highlight .w {
+    color: #bbb
+}
+
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
+    color: #099
+}
+
+.highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+    color: #d14
+}
+
+.highlight .sr {
+    color: #009926
+}
+
+.highlight .s1 {
+    color: #d14
+}
+
+.highlight .ss {
+    color: #990073
+}
+
+.highlight .bp {
+    color: #999
+}
+
+.highlight .vc, .highlight .vg, .highlight .vi {
+    color: teal
+}
+
+.highlight .il {
+    color: #099
+}
+
 abbr, blockquote, body, dd, div, dl, dt, fieldset, form, li, ol, p, pre, td, th, ul {
     margin: 0;
     padding: 0
@@ -654,4 +840,162 @@ div.maruku-equation img.maruku-png {
     background: #57A957;
     border: 1px solid #4C964D;
     color: #FFF
+}
+
+.post {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #c8c7c7;
+    padding-bottom: 1em
+}
+
+.post a {
+    font-family: "微软雅黑", "Open Sans", Ubuntu, Helvetica, Arial, sans-serif;
+    color: #48a9e7
+}
+
+.post a:hover {
+    text-decoration: underline
+}
+
+.post-left {
+    width: 75px;
+    float: left;
+    color: #cecece;
+    padding: 1em 10px 0 0;
+    margin-right: 21px;
+    border-right: 1px solid #c8c7c7;
+    text-align: right
+}
+
+.post-left:hover {
+    color: #48a9e7
+}
+
+.post-date {
+    padding-top: 10px;
+    font-family: CabinBold, Arial, sans;
+    font-size: 400%;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -2px
+}
+
+div.post-left div.post-date span {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0
+}
+
+.post-right {
+    padding-top: 1em;
+    overflow: hidden;
+    margin: 0;
+    position: relative
+}
+
+#post-title {
+    color: #2b9b0c;
+    margin: 0 0 9px;
+    padding: 0;
+    font-family: CabinRegular, Arial;
+    font-size: 2em
+}
+
+#post-title a {
+    color: #48a9e7;
+    text-decoration: none
+}
+
+#post-title a:hover {
+    text-decoration: none;
+    color: #21759b;
+    border-bottom: 1px solid #48a9e7
+}
+
+.post-right h6 {
+    font-family: CabinRegular, Arial;
+    color: silver;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 auto .5em
+}
+
+.post-overview-right {
+    float: left
+}
+
+.ui-menu-item {
+    list-style-type: none
+}
+
+#search, .ui-menu-item a {
+    color: #21759b
+}
+
+.ui-menu-item a:hover {
+    color: #2b9b0c;
+    cursor: pointer;
+    background: #fff;
+    border-color: silver !important
+}
+
+#search:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.ui-corner-all {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+code {
+    word-wrap: break-word;
+    font-size: 1.5em;
+    font-family: arial, "微软雅黑"
+}
+
+p code {
+    font-size: 18px
+}
+
+.ui-menu .ui-menu-item a {
+    border: 1px solid #fff
+}
+
+#backToTop {
+    display: block;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 3em;
+    right: -5em;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid silver;
+    -moz-transition: right .5s;
+    -webkit-transition: right .5s;
+    -o-transition: right .5s;
+    -ms-transition: right .5s;
+    transition: right .5s
+}
+
+#backToTop:hover {
+    background: #fff
+}
+
+#backToTop span {
+    display: block;
+    width: 50px;
+    color: #2b9b0c;
+    font-size: 40px
+}
+
+#backToTop span:hover {
+    color: #21759b
 }

@@ -5,9 +5,18 @@ module.exports = function (grunt) {
             options: {
                 keepSpecialComments: 0
             },
-            compress: {
+//压缩为*.min.css文件
+            minify: {
+                expand: true,
+                cwd: '../assets/themes/DIYtheme/css/',
+                src: ['*.css', '!*.min.css'],
+                dest: '../assets/themes/DIYtheme/css/',
+                ext: '.min.css'
+            },
+//合并css
+            combine: {
                 files: {
-                    '../assets/themes/DIYtheme/css/page.min.css': "../assets/themes/DIYtheme/css/page.css"
+                    '../assets/css/combine.min.css': ['../assets/themes/DIYtheme/css/syntax.min.css', '../assets/themes/DIYtheme/css/screen.min.css', '../assets/themes/DIYtheme/css/page.min.css']
                 }
             }
         }
