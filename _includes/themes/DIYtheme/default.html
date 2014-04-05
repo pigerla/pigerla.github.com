@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.min.css" type="text/css"/>
     <!-- Homepage_post css,called page.css-->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/page.min.css" type="text/css"/>
-    <!--添加搜索样式-->
+    <!--search css-->
     <link rel="stylesheet" href="{{ root_url }}/assets/css/jquery-ui.css" type="text/css"/>
 </head>
 <body id="{{ page.section }}">
@@ -69,63 +69,14 @@
 </div>
 
 <!--[if IE 6]>
-<script type="text/javascript">
-    /*Load jQuery if not already loaded*/
-    if (typeof jQuery == 'undefined') {
-        document.write("<script type=\"text/javascript\"   src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></" + "script>");
-        var __noconflict = true;
-    }
-    var IE6UPDATE_OPTIONS = {
-        icons_path: "http://static.ie6update.com/hosted/ie6update/images/"
-    }
-</script>
+<script type="text/javascript" src="{{ root_url }}/assets/js/ie6-hack.js"></script>
 <script type="text/javascript" src="http://static.ie6update.com/hosted/ie6update/ie6update.js"></script>
 <![endif]-->
 <!--引入搜索js-->
 <script type="text/javascript" src="{{ root_url }}/assets/js/jquery.js"></script>
 <script type="text/javascript" src="{{ root_url }}/assets/js/jquery-ui.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $.ajax({
-            url: "http://pigerla.com/search.xml",
-            dataType: "xml",
-            success: function (xmlResponse) {
-                var data = $("article", xmlResponse).map(function () {
-                    return {
-                        value: $("title", this).text() + "【" +
-                                ( $.trim($("date", this).text()) + "】" ),
-                        desc: $("description", this).text(),
-                        url: $("url", this).text()
-                    };
-                }).get();
-
-                $("#search").autocomplete({
-                    source: data,
-                    minLength: 0,
-                    select: function (event, ui) {
-                        window.location.href = ui.item.url;
-                    }
-                });
-            }
-        });
-        //只要窗口滚动,就触发下面代码
-        $(window).scroll(function () {
-            //获取滚动后的高度
-            var scrollTop = document.documentElement.scrollTop + document.body.scrollTop;
-            if (scrollTop > 700) {
-                //判断滚动后高度超过700px,就显示
-                $("#backToTop").css('right', '2em');
-            } else {
-                //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
-                $("#backToTop").css('right', '-5em');
-            }
-        });
-        $("#backToTop").click(function () {
-            //当点击标签的时候,使用animate在500毫秒的时间内,滚到顶部
-            $("html,body").animate({scrollTop: "0px"}, 500);
-        });
-    });
-</script>
+<script type="text/javascript" src="{{ root_url }}/assets/js/search-xml.js"></script>
+<script type="text/javascript" src="{{ root_url }}/assets/js/backToTop.js"></script>
 {% include JB/analytics %}
 </body>
 </html>
