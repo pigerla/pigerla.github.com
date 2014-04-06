@@ -34,7 +34,11 @@ img { -ms-interpolation-mode:bicubic; }
 
 /* IE6 ignores this and uses default size of 16px */
 html>body { font-size:16px; }
-p { margin-top:0.5em; text-align: justify;text-indent: 1em; }
+p {
+    margin-top:0.5em;
+    text-align: justify;
+    text-indent: 1em;
+}
 
 a { text-decoration: none; color: #48A9E7; }
 a:hover { text-decoration: underline;}
@@ -43,7 +47,7 @@ hr {
     border-top: 1px solid silver;
     border-bottom: none;
     padding: 0;
-    margin: 1.46em 0 0 0;
+    margin: 1.46em 0 0;
 }
 
 sup { line-height: 1ex; }
@@ -68,9 +72,10 @@ sup { line-height: 1ex; }
 }
 /* More experimental CSS3 features */
 #page, .ds-thread {
-    box-shadow: 0 2px 6px #aaa;
     -webkit-box-shadow: 0 2px 6px #aaa;
     -moz-box-shadow: 0 2px 6px #aaa;
+    -o-box-shadow: 0 2px 6px #aaa;
+    box-shadow: 0 2px 6px #aaa;
 }
 
 #disqus_thread { padding-top: 1em; margin-top: 0.5em; }
@@ -510,9 +515,11 @@ img.maruku-png { }
     list-style:none;
     line-height:1.8em;
 }
+
 .tag_box.inline li {
     float:left;
 }
+
 .tag_box a {
     padding: 3px;
     margin: 2px;
