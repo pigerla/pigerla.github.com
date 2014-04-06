@@ -337,8 +337,13 @@ pre:hover {
 }
 code {
     font-size: 1em;
-    background-color: #f7f7ff;
+    background-color: #ddd;
     line-height: 1.4em;
+    padding: 1px 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 pre > code {
     background-color: transparent;
