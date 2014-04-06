@@ -55,12 +55,12 @@ sup { line-height: 1ex; }
 
 #page, .ds-thread {
     background: white;
-    padding: 2em 1.5em;
+    padding: 1em;
     border: 1px solid #ccc;
 }
 
 #page,#footer,.ds-thread{
-    width: 57em;
+    width: 80%;
     margin: 0 auto;
 }
 #page{
@@ -185,7 +185,7 @@ ul.compact li a {
     margin-bottom: 0;
 }
 #header ul {
-    width: 60em;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
     position: relative;
