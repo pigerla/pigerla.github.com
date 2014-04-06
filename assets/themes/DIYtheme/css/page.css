@@ -18,8 +18,8 @@
     width: 75px;
     float: left;
     color: #cecece;
-    padding: 1em 10px 0 0;
-    margin-right: 21px;
+    padding: 10px 10px 0 0;
+    margin-right: 15px;
     border-right: 1px solid #c8c7c7;
     text-align: right
 }
@@ -31,10 +31,9 @@
 .post-date {
     padding-top: 10px;
     font-family: "CabinBold", Arial, sans;
-    font-size: 400%;
-    line-height: 32px;
+    font-size: 3em;
+    line-height: 24px;
     text-align: center;
-    letter-spacing: -2px
 }
 
 div.post-left div.post-date span {
@@ -55,7 +54,6 @@ div.post-left div.post-date span {
     margin: 0 0 9px;
     padding: 0;
     font-family: 'CabinRegular', Arial;
-    font-size: 2em
 }
 
 #post-title a {
@@ -63,7 +61,7 @@ div.post-left div.post-date span {
     text-decoration: none
 }
 
-#post-title a:hover {
+#ssspost-title a:hover {
     text-decoration: none;
     color: #21759b;
     border-bottom: 1px solid #48a9e7
