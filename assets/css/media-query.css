@@ -1,0 +1,9 @@
+@media all and (max-width: 700px) {
+    .post-left{
+        display: none;
+    }
+    #backToTop{
+        right: 0;
+    }
+
+}

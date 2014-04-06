@@ -20,6 +20,7 @@ module.exports = function (grunt) {
                         '../assets/themes/DIYtheme/css/syntax.min.css',
                         '../assets/themes/DIYtheme/css/screen.min.css',
                         '../assets/themes/DIYtheme/css/page.min.css',
+                        '../assets/css/media-query.css',
                         '../assets/css/base.css',
                         '../assets/css/common.css'
                     ]
