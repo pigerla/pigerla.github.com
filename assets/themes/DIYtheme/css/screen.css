@@ -24,12 +24,15 @@ body {
     background-repeat: repeat-x;
     color: #444;
 }
-/*自定义图片的宽度*/
-body img { width: 720px;}
+/* 响应式设计——流图像 */
+body img {
+    max-width: 100%;
+    height: auto;
+}
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
 img { -ms-interpolation-mode:bicubic; }
 
-/* IE6 ignores this and uses default size of 16pt */
+/* IE6 ignores this and uses default size of 16px */
 html>body { font-size:16px; }
 p { margin-top:0.5em; text-align: justify;text-indent: 1em; }
 
