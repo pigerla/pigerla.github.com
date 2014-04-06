@@ -8,7 +8,7 @@ $(function () {
         var scrollTop = document.documentElement.scrollTop + document.body.scrollTop;
         if (scrollTop > 700) {
             //判断滚动后高度超过700px,就显示
-            $("#backToTop").css('right', '2em');
+            $("#backToTop").css('right', '1em');
         } else {
             //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
             $("#backToTop").css('right', '-5em');

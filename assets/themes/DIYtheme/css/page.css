@@ -123,13 +123,15 @@ p code {
 
 #backToTop {
     display: block;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
     position: fixed;
-    bottom: 3em;
+    bottom: 2em;
     right: -5em;
-    border-radius: 10px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 20px;
     text-decoration: none;
     border: 1px solid silver;
     -moz-transition: right .5s;
@@ -142,14 +144,6 @@ p code {
 #backToTop:hover {
     background: #fff
 }
-
-#backToTop span {
-    display: block;
-    width: 50px;
-    color: #2b9b0c;
-    font-size: 40px
-}
-
 #backToTop span:hover {
     color: #21759b
 }
