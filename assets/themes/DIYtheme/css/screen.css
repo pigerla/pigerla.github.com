@@ -449,8 +449,7 @@ p.delicious-extended:before { content: ' — '; }
 }
 #footer address {
     position: relative;
-    margin: .2em 0 0 0;
-    text-align: right;
+    margin: .2em 0;
 }
 #footer a {
     font-variant: small-caps;
@@ -459,19 +458,11 @@ p.delicious-extended:before { content: ' — '; }
     text-decoration: none;
 }
 #footer .copyright {
-    position: absolute;
-    left: 0;
-    text-align: left;
     display: block;
 }
 #footer .engine {
-    position: absolute;
-    text-align: right;
-    display: block;
-    right: 0;
 }
 /* @end */
-
 
 /* @group Figures and images */
 dl.figure {
