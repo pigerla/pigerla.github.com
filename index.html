@@ -8,27 +8,27 @@ tagline: Supporting tagline
 <div class="post">
 	<div class="post-left">
 
-		<!-- 左侧的显示时间 -->
+<!-- 左侧的显示时间 -->
 		<div class="post-date">
-			<!--获取文章的“日”，格式为 date: "%d" -->
+<!--获取文章的“日”，格式为 date: "%d" -->
 			{{ post.date | date: "%d" }}
-			<!--获取文章的“月 年”，格式为 date: "%b %Y" 其中%b表示缩写月份，大写月份为%B -->
+<!--获取文章的“月 年”，格式为 date: "%b %Y" 其中%b表示缩写月份，大写月份为%B -->
 			<span>{{ post.date | date: "%b %Y" }}</span>
 		</div>
 	</div>
 	<div class="post-right">
-		<h2 id="post-title">
-			<!-- 文章的大标题显示 -->
+		<h1 id="post-title">
+<!-- 文章的大标题显示 -->
 			<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-		</h2>
-		<!-- 文章作者 -->
+		</h1>
+<!-- 文章作者 -->
 		<h6>By {{ page.title }}</h6>
 		<div class="the-content">
-			<!-- 文章缩图显示 -->
+<!-- 文章缩图显示 -->
 			<div class="post-overview-left">
 				
 			</div>
-			<!-- 文章摘要显示 -->
+<!-- 文章摘要显示 -->
 			<div class="post-overview-right">
 				<p>
 					{{ post.content  | | split:'<!--break-->' | first }}
