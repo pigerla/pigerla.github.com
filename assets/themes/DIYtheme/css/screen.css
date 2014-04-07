@@ -69,7 +69,7 @@ sup { line-height: 1ex; }
     margin: 0 auto;
 }
 #page{
-    margin-top: 4em;
+    margin-top: 3em;
 }
 /* More experimental CSS3 features */
 #page, .ds-thread {
@@ -186,7 +186,7 @@ ul.compact li a {
     _position: absolute;
     top: 0;
     left: 0;
-    background: url(../images/page/nav_bg.jpg) repeat-x 0 0;
+    background: url(../images/page/nav_bg.png) repeat-x 0 0;
     z-index: 9999;
     margin-bottom: 0;
 }
