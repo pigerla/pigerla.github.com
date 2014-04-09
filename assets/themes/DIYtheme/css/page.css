@@ -123,10 +123,10 @@ p code {
 }
 
 #backToTop:hover {
-    background: #fff
+    background: #fff;
     text-decoration:none;
 }
-
+/* min-width:700px */
 .post-date-right{
     display: none;
 }
