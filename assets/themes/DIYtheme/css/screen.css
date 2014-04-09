@@ -156,7 +156,7 @@ caption {
 /* @group Lists */
 ul li {
     list-style-type: square;
-    list-style-position: outside;
+    list-style-position: inside;
 }
 ol li {
     list-style-type: decimal;
@@ -504,7 +504,6 @@ img.maruku-png { }
 .prev-next .next{
     float:right;
 }
-
 /* tag_box ======================================================== */
 .tag_box {
     list-style:none;

@@ -9,7 +9,6 @@
     font-family: "微软雅黑", "Open Sans", "Ubuntu", Helvetica, Arial, sans-serif;
     color: #48a9e7
 }
-
 .post a:hover {
     text-decoration: underline
 }
@@ -36,7 +35,7 @@
     text-align: center;
 }
 
-div.post-left div.post-date span {
+.post-date span {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0
@@ -139,9 +138,7 @@ p code {
 
 #backToTop:hover {
     background: #fff
-}
-#backToTop span:hover {
-    color: #21759b
+    text-decoration:none;
 }
 
 .post-date-right{
