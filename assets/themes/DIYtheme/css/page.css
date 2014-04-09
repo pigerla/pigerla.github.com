@@ -1,6 +1,5 @@
 .post {
     display: inline-block;
-    width: 100%;
     border-top: 1px solid #c8c7c7;
     padding-bottom: 1em
 }
@@ -15,12 +14,8 @@
 
 .post-left {
     width: 75px;
-    float: left;
     color: #cecece;
-    padding: 10px 10px 0 0;
-    margin-right: 15px;
     border-right: 1px solid #c8c7c7;
-    text-align: right
 }
 
 .post-left:hover {
@@ -28,15 +23,12 @@
 }
 
 .post-date {
-    padding-top: 10px;
     font-family: "CabinBold", Arial, sans;
     font-size: 3em;
     line-height: 24px;
-    text-align: center;
 }
 
 .post-date span {
-    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0
 }
@@ -45,7 +37,6 @@
     padding-top: 1em;
     overflow: hidden;
     margin: 0;
-    position: relative
 }
 
 #post-title {
@@ -57,7 +48,6 @@
 
 #post-title a {
     color: #48a9e7;
-    text-decoration: none
 }
 
 #post-title a:hover {
@@ -72,10 +62,6 @@
     font-size: 1em;
     font-weight: normal;
     margin: 0 auto .5em
-}
-
-.post-overview-right {
-    float: left
 }
 
 .ui-menu-item {

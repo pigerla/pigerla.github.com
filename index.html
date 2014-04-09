@@ -5,26 +5,26 @@ tagline: Supporting tagline
 ---
 <!-- 使用jekyll语法，作用是获取文章数，自动地展示文章-->
 {% for post in site.posts %}
-<div class="post">
-	<div class="post-left">
+<div class="post w">
+	<div class="post-left  fl pt10 pr10 mr15 tr">
 <!-- 左侧的显示时间 -->
-		<div class="post-date">
+		<div class="post-date pt10 tc">
 <!--获取文章的“日”，格式为 date: "%d" -->
 			{{ post.date | date: "%d" }}
 <!--获取文章的“月 年”，格式为 date: "%b %Y" 其中%b表示缩写月份，大写月份为%B -->
-			<span>{{ post.date | date: "%b %Y" }}</span>
+			<span class="f16">{{ post.date | date: "%b %Y" }}</span>
 		</div>
 	</div>
-	<div class="post-right">
+	<div class="post-right pr">
 		<h1 id="post-title">
 <!-- 文章的大标题显示 -->
-			<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+			<a class="no_unl" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 		</h1>
 <!-- 文章作者 -->
 		<h6><small>By</small> {{ page.title }}<small class="post-date-right"><span class="pl10 pr10">|</span><b>{{ post.date | date: "%Y-%m-%d" }}</b></small></h6>
 		<div class="the-content">
 <!-- 文章缩图显示 -->
-			<div class="post-overview-left">
+			<div class="fl">
 			</div>
 <!-- 文章摘要显示 -->
 			<div class="post-overview-right">

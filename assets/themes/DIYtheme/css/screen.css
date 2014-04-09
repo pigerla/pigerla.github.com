@@ -62,11 +62,6 @@ hr {
 
 sup { line-height: 1ex; }
 
-#site {
-    height: 100%;
-    width: 100%;
-}
-
 #page, .ds-thread {
     background: white;
     padding: 1em;
