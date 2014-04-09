@@ -2,8 +2,7 @@
     .post-left{
         display: none;
     }
-    #backToTop{
-        right: 0;
+    .post-date-right{
+        display: block;
     }
-
 }

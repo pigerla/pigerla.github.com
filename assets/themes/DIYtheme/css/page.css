@@ -126,13 +126,9 @@ p code {
     position: fixed;
     bottom: 2em;
     right: -5em;
-    width: 40px;
     line-height: 40px;
-    text-align: center;
     font-size: 40px;
-    font-weight: bold;
     border-radius: 20px;
-    text-decoration: none;
     border: 1px solid silver;
     -moz-transition: right .5s;
     -webkit-transition: right .5s;
@@ -146,4 +142,8 @@ p code {
 }
 #backToTop span:hover {
     color: #21759b
+}
+
+.post-date-right{
+    display: none;
 }
