@@ -3,6 +3,6 @@
         display: none;
     }
     .post-date-right{
-        display: block;
+        display: inline-block;
     }
 }
