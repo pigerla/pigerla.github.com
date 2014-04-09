@@ -1,5 +1,5 @@
 @media all and (max-width: 700px) {
-    .post-left{
+    .post .post-left{
         display: none;
     }
     .post-date-right{
