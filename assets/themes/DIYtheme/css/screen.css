@@ -176,10 +176,10 @@ ul.compact li a {
 /* @end */
 
 /* @group Header */
-#header a { color: #48A9E7;}
-#header a:hover { color: #fff;text-decoration: none; }
+.header a { color: #48A9E7;}
+.header a:hover { color: #fff;text-decoration: none; }
 
-#header {
+.header {
     width: 100%;
     border-top: 2px solid #48A9E7;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -240,13 +240,13 @@ ul.compact li a {
 .twitter-title a { display: inline; }
 /* @end */
 
-body#Work #header a.work,
-body#Home #header a.home,
-body#Play #header a.play,
-body#Info #header a.info,
-body#Code #header a.code,
-body#Past #header a.past,
-body#Kith #header a.kith
+body#Work .header a.work,
+body#Home .header a.home,
+body#Play .header a.play,
+body#Info .header a.info,
+body#Code .header a.code,
+body#Past .header a.past,
+body#Kith .header a.kith
 {
     border-bottom: 2px solid silver;
 }
