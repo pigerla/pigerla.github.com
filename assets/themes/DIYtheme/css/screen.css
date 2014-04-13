@@ -199,8 +199,8 @@ ul.compact li a {
     height: 100%;
     margin: 0 auto;
 }
-#header ul li { display: inline; font-size: 1.2em;}
-#header ul li a {
+.nav li { display: inline; font-size: 1.2em;}
+.nav li a {
     line-height: 40px;
     padding: 0 5px;
     display: inline-block;
