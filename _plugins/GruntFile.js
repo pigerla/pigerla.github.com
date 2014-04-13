@@ -44,6 +44,6 @@ module.exports = function (grunt) {
 //加载 uglify 插件
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    // 默认被执行的任务列表。
+// 默认被执行的任务列表。
     grunt.registerTask('default', ['cssmin','uglify']);
 };
