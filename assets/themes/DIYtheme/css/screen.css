@@ -194,11 +194,10 @@ ul.compact li a {
     z-index: 9999;
     margin-bottom: 0;
 }
-#header ul {
+.nav {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    position: relative;
 }
 #header ul li { display: inline; font-size: 1.2em;}
 #header ul li a {
@@ -206,11 +205,11 @@ ul.compact li a {
     padding: 0 5px;
     display: inline-block;
 }
-#search {
-    float: right;
+.search_input {
     width: 4em;
     padding: 5px 10px;
-    position: relative;
+    position: absolute;
+    right: 0;
     top: 2px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -230,7 +229,7 @@ ul.compact li a {
     transition: width 0.5s;
 }
 
-#search:hover {
+.search_input:hover {
     width: 10em;
 }
 
