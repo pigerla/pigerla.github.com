@@ -23,9 +23,14 @@
 }
 
 .post-date {
+    position: relative;
     font-family: "CabinBold", Arial, sans;
     font-size: 3em;
     line-height: 24px;
+    animation:up-down 8s infinite;
+    -moz-animation:up-down 8s infinite; /* Firefox */
+    -webkit-animation:up-down 8s infinite; /* Safari and Chrome */
+    -o-animation:up-down 8s infinite; /* Opera */
 }
 
 .post-date span {

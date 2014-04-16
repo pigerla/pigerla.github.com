@@ -16,3 +16,78 @@
         transform: rotate(360deg);
     }
 }
+
+@keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 80px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 80px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 80px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Opera */
+@-o-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 80px;
+    }
+    100% {
+        top: 0px;
+    }
+}
