@@ -27,10 +27,10 @@
     font-family: "CabinBold", Arial, sans;
     font-size: 3em;
     line-height: 24px;
-    animation:up-down 8s infinite;
-    -moz-animation:up-down 8s infinite; /* Firefox */
-    -webkit-animation:up-down 8s infinite; /* Safari and Chrome */
-    -o-animation:up-down 8s infinite; /* Opera */
+    animation:up-down 10s 5;
+    -moz-animation:up-down 10s 5; /* Firefox */
+    -webkit-animation:up-down 10s 5; /* Safari and Chrome */
+    -o-animation:up-down 10s 5; /* Opera */
 }
 
 .post-date span {
