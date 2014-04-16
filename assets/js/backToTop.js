@@ -17,5 +17,19 @@ $(function () {
     $("#backToTop").click(function () {
         //当点击标签的时候,使用animate在500毫秒的时间内,滚到顶部
         $("body").animate({scrollTop: "0px"}, 500);
+    }).on('mouseover' , function(){
+        $(this).css({
+            "-webkit-animation-play-state": "paused",
+            "-o-animation-play-state": "paused",
+            "-moz-animation-play-state": "paused",
+            "animation-play-state": "paused"
+        })
+    } , function(){
+        $(this).css({
+            "-webkit-animation-play-state": "running",
+            "-o-animation-play-state": "running",
+            "-moz-animation-play-state": "running",
+            "animation-play-state": "running"
+        })
     });
 });

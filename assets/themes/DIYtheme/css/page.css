@@ -119,7 +119,10 @@ p code {
     -webkit-transition: right .5s;
     -o-transition: right .5s;
     -ms-transition: right .5s;
-    transition: right .5s
+    transition: right .5s;
+    -webkit-animation: rotate 4s linear infinite;
+    -moz-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 #backToTop:hover {
