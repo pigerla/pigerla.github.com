@@ -10,26 +10,26 @@
     <meta name="description" content="集个人学习心得、Demo例子、翻译国外优秀文章等"/>
     <!-- 添加网址logo icon-->
     <link rel="Shortcut Icon" href="{{ root_url }}/assets/images/favicon.ico"/>
-    <link rel="start" href="{{ HOME_PATH }}"/>
 
-    {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}">
-    {% endif %}
+    <!--{% if page.keywords %}-->
+    <!--<meta name="keywords" content="{{ page.keywords }}">-->
+    <!--{% endif %}-->
 
-    {% if site.author.feedburner %}
-    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}"
-          title="RSS feed"/>
-    {% endif %}
-    {% if page.feed %}
-    <link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed"/>
-    {% endif %}
+    <!--{% if site.author.feedburner %}-->
+    <!--<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}"-->
+          <!--title="RSS feed"/>-->
+    <!--{% endif %}-->
+    <!--{% if page.feed %}-->
+    <!--<link rel="alternate" type="application/atom+xml" href="{{ page.feed }}" title="RSS feed"/>-->
+    <!--{% endif %}-->
 
     <!-- combine css for Reducing HTTP request -->
     <link rel="stylesheet" href="{{ root_url }}/assets/css/combine.min.css" type="text/css"/>
     <!--search css-->
     <link rel="stylesheet" href="{{ root_url }}/assets/css/jquery-ui.css" type="text/css"/>
+    {{ css }}
 </head>
-<body id="{{ page.section }}">
+<body>
 <div id="site" class="w h">
     <div id="header" class="header">
         <ul class="nav pr">
@@ -71,6 +71,7 @@
 <script type="text/javascript" src="{{ root_url }}/assets/js/jquery.js"></script>
 <script type="text/javascript" src="{{ root_url }}/assets/js/jquery-ui.js"></script>
 <script type="text/javascript" src="{{ root_url }}/assets/js/combine.min.js"></script>
+{{ script }}
 {% include JB/analytics %}
 </body>
 </html>
