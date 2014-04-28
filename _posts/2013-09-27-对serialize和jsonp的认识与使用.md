@@ -1,6 +1,7 @@
 ---
 layout: post
 category : 读书笔记
+permalink : learn-note/2013-09-27/understand-and-use-serialize-and-jsonp/
 tagline: "Supporting tagline"
 tags : [Ajax, jsonp, serialize, jquery]
 ---

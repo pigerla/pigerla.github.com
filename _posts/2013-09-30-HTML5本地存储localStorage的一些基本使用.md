@@ -1,6 +1,7 @@
 ---
 layout: post
 category : 读书笔记
+permalink : learn-note/2013-09-30/html5-localStorage-practice/
 tagline: "Supporting tagline"
 tags : [HTML5, localStorage, sessionStorage]
 ---
