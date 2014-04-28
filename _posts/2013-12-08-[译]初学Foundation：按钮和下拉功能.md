@@ -135,7 +135,7 @@ dropdown js是一个简单的插件，但只有一个选择来激活它：设置
 
 ![foundation-5-6](http://pigerla.com/assets/images/20131202/foundation-5-6.jpg )   
 
-如果你在第一个li标签中添加class"clearing-feature"，那么第一张图片就作为默认图片。清除也使用了前面文章所介绍的[初学者学习foundation：网格系统](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/11/06/[%E8%AF%91]%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F/)，使得所有的缩略图搞一致，并且均匀分布。
+如果你在第一个li标签中添加class"clearing-feature"，那么第一张图片就作为默认图片。清除也使用了前面文章所介绍的[初学者学习foundation：网格系统](http://pigerla.com/foundation-for-beginners/2013-11-06/the-grid-system/)，使得所有的缩略图搞一致，并且均匀分布。
 
 ## 总结 ##
 
