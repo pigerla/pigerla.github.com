@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2013-11-06/the-grid-system/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---
@@ -10,7 +11,7 @@ tags : [Foundation入门]
 
 原文作者：[Matt Pilott](http://webdesign.tutsplus.com/author/matt-pilott/) , 2013-06-05
 
-在学习Foundation系列文章中的[上一篇:初学者学习Foundation：入门篇](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/10/30/[%E8%AF%91]%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E5%85%A5%E9%97%A8%E7%AF%87/)，我们大概讲述了可以用这个框架来干什么，框架本身又可以做什么和如何自定义符合自己需求的框架。那么此文章就将深入地研究学习“网格系统”，过程中我将使用实例来演示。到最后，为了做出一些震撼的效果，我们还会学习对各种内容都可以实现滑动效果的插件：[Orbit:Javascript插件](http://zurb.com/playground/orbit-jquery-image-slider)。
+在学习Foundation系列文章中的[上一篇:初学Foundation：入门篇](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/10/30/[%E8%AF%91]%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E5%85%A5%E9%97%A8%E7%AF%87/)，我们大概讲述了可以用这个框架来干什么，框架本身又可以做什么和如何自定义符合自己需求的框架。那么此文章就将深入地研究学习“网格系统”，过程中我将使用实例来演示。到最后，为了做出一些震撼的效果，我们还会学习对各种内容都可以实现滑动效果的插件：[Orbit:Javascript插件](http://zurb.com/playground/orbit-jquery-image-slider)。
 
 <!--break-->
 

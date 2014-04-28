@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2013-12-08/buttons-and-dropdowns/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---
@@ -9,7 +10,7 @@ tags : [Foundation入门]
 
 原文作者：[Matt Pilott](http://webdesign.tutsplus.com/author/matt-pilott/) , 2013-06-17
 
-初学者学习Foundation系列教程第六篇，将学习一下“按钮”、“下拉功能”和“清除”插件。
+初学者初学Foundation程第六篇，将学习一下“按钮”、“下拉功能”和“清除”插件。
 
 ![foundation-5-1](http://pigerla.com/assets/images/20131202/foundation-5-1.jpg) 
 

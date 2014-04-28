@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2013-12-21/joyride-interchange-tables-and-panels/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---

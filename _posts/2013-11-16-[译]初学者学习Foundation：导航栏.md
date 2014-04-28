@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2013-11-16/foundation-for-beginners-navigation/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---

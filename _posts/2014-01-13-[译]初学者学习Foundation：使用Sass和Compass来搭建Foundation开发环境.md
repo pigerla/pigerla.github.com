@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2014-01-13/setting-up-foundation-with-sass-and-compass/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---

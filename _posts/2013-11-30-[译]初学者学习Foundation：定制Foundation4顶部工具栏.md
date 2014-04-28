@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2013-11-30/how-to-customize-the-foundation-4-top-bar/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---
@@ -35,7 +36,7 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
 好的，我们将编写`header`、`导航`、`主内容`和`footer`区域的内容，我们将给每个区域都添加`class="full-width"`,然后再添加一个块元素` <div class="row">`，块元素里面再添加一个块元素`<div class="large-12 columns">`，这也就是搭起基本的网格结构。
 
-**备注：**更多关于网格系统如何运行的，可以回顾教程第二篇：[初学者学习foundation：网格系统](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/11/06/%5B%E8%AF%91%5D%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F)
+**备注：**更多关于网格系统如何运行的，可以回顾教程第二篇：[初学Foundation：网格系统](http://pigerla.com/foundation-for-beginners/2013-11-06/the-grid-system/)
 
     <!-- HEADER AREA -->
     <header class="full-width header-area">
@@ -84,7 +85,7 @@ Zurb开发的第4版本Foundation（简称为Foundation 4）使得顶部工具�
 
 **备注：**在此教程例子中，我们将创建一个自定义的导航菜单，因此删除一些包括logo、文本和图片的标题。因此从下面代码例子可以看到在块元素`<ul class="title-area">`里的`<li class="name"></li>`里面是空的。
 
-接着，我们来添加一些菜单元素和一个下拉菜单代码，在你想添加下拉菜单的li元素里添加`class="has-dropdown"`，然后在里面包含下拉菜单代码` <ul class="dropdown">...</ul>`。如果想表示当前使用状态的`li`，则需要添加"active"。`<ul class="right"><ul>`里面可以为空的，嵌入代码中。一般情况下，你将会在这个空的ul里添加一个按钮或者搜索栏。更多关于顶部工具栏，可看上一篇教程：[初学者学习foundation：顶部工具栏](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2013/11/24/%5B%E8%AF%91%5D%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E9%A1%B6%E9%83%A8%E5%B7%A5%E5%85%B7%E6%A0%8F)
+接着，我们来添加一些菜单元素和一个下拉菜单代码，在你想添加下拉菜单的li元素里添加`class="has-dropdown"`，然后在里面包含下拉菜单代码` <ul class="dropdown">...</ul>`。如果想表示当前使用状态的`li`，则需要添加"active"。`<ul class="right"><ul>`里面可以为空的，嵌入代码中。一般情况下，你将会在这个空的ul里添加一个按钮或者搜索栏。更多关于顶部工具栏，可看上一篇教程：[初学Foundation：顶部工具栏](http://pigerla.com/foundation-for-beginners/2013-11-24/the-top-bar/)
 
 如下HTML代码示例，其中的注释会帮助你理解整体是如何运作的。
 

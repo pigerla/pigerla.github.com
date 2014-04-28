@@ -1,6 +1,7 @@
 ---
 layout: post
-category : 初学者学习Foundation
+category : 初学Foundation
+permalink : foundation-for-beginners/2014-01-15/foundations-sassy-styles-explained/
 tagline: "Supporting tagline"
 tags : [Foundation入门]
 ---
@@ -13,7 +14,7 @@ tags : [Foundation入门]
 
 <!--break-->
 
-如果你需要搭建起Sass的Foundation开发环境，可以参考文章“[使用Sass和Compass配置Foundation](http://dev.tutsplus.com/tutorials/setting-up-foundation-with-sass-and-compass--webdesign-15288)”（参见上篇译文：[初学者学习foundation：使用sass和compass来搭建foundation开发环境](http://pigerla.com/%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0foundation/2014/01/13/%5B%E8%AF%91%5D%E5%88%9D%E5%AD%A6%E8%80%85%E5%AD%A6%E4%B9%A0Foundation%EF%BC%9A%E4%BD%BF%E7%94%A8Sass%E5%92%8CCompass%E6%9D%A5%E6%90%AD%E5%BB%BAFoundation%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)）或者是[Zurb官方文档](http://foundation.zurb.com/docs/sass.html)。你可以通过在控制台输入命令行方式来搭建环境，然后使用Compass和[Bourbon](http://bourbon.io/)（一个简单却轻量级混合Sass库），或者只是[从Github上下载单独Sass文件](https://github.com/zurb/foundation/tree/scss-standalone)，然后放置这些文件在你的工程上，然后通过“import”来引用需要的文件。
+如果你需要搭建起Sass的Foundation开发环境，可以参考文章“[使用Sass和Compass配置Foundation](http://dev.tutsplus.com/tutorials/setting-up-foundation-with-sass-and-compass--webdesign-15288)”（参见上篇译文：[初学Foundation：使用sass和compass来搭建foundation开发环境](http://pigerla.com/foundation-for-beginners/2014-01-13/setting-up-foundation-with-sass-and-compass/)）或者是[Zurb官方文档](http://foundation.zurb.com/docs/sass.html)。你可以通过在控制台输入命令行方式来搭建环境，然后使用Compass和[Bourbon](http://bourbon.io/)（一个简单却轻量级混合Sass库），或者只是[从Github上下载单独Sass文件](https://github.com/zurb/foundation/tree/scss-standalone)，然后放置这些文件在你的工程上，然后通过“import”来引用需要的文件。
 
 ![zurb-mixins](http://pigerla.com/assets/images/20140115/zurb-mixins.png )
 
