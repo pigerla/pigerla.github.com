@@ -1,6 +1,7 @@
 ---
 layout: post
 category : 阅读文档笔记
+permalink : learn-note/2013-06-20/improving-website-performance-with-Page-Speed/
 tagline: "Supporting tagline"
 tags : [web前端, 性能优化, PageSpeed]
 ---

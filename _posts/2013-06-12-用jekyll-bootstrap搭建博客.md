@@ -1,6 +1,7 @@
 ---
 layout: post
 category : 教程
+permalink : learn-note/2013-06-12/create-a-blog-with-jekyll-bootstrap/
 tagline: "Supporting tagline"
 tags : [Github_blog, 初学者, jekyll]
 ---
