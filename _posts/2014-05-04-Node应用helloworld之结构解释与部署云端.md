@@ -8,15 +8,16 @@ tags : [Node应用]
 
 想实践Node?学习搭一下Node架构如何？还想部署云端？来吧，看看如何梦想成真。
 
-<!--break-->
-
 ## 准备工作 ##
 
-1. **注册云端帐号** —— 想部署到云端，又想免费的，总得要注册一个帐号吧。
+- **注册云端帐号** —— 想部署到云端，又想免费的，总得要注册一个帐号吧。
 
-	- [Nodejitsu](https://www.nodejitsu.com/ "注册Nodejitsu帐号") — 推荐使用，需要注意的是，注册时，填写`Username`字段，建议简短易用，原因一是登录时，是使用`Username`+`Password`来登录的；二是当你`deploy`Node应用时，默认访问域名是：`Username-Node应用名称.jit.su`组合。例如[pigerla-helloworld.jis.su](https://www.nodejitsu.com/ "点击看效果")。登录成功之后，Nodejitsu会引导你部署第一个Node应用的，其实也就是来到[github jitsu](https://github.com/nodejitsu/jitsu)，阅读README，只要运行一个命令行`npm install jitsu -g`，把jitsu应用安装到全局，在哪个文件下都可以运行就可以了。当然，还有其他云平台，Paas类型的还有：
-	- [heroku](https://id.heroku.com/signup "注册heroku")
-	- [openshift](https://www.openshift.com/)
+<!--break-->
+
+>	- [Nodejitsu](https://www.nodejitsu.com/ "注册Nodejitsu帐号") — 推荐使用，需要注意的是，注册时，填写`Username`字段，建议简短易用，原因一是登录时，是使用`Username`+`Password`来登录的；二是当你`deploy`Node应用时，默认访问域名是：`Username-Node应用名称.jit.su`组合。例如[pigerla-helloworld.jis.su](http://pigerla-helloworld.jit.su/ "点击看效果")。登录成功之后，Nodejitsu会引导你部署第一个Node应用的，其实也就是来到[github jitsu](https://github.com/nodejitsu/jitsu)，阅读README，只要运行一个命令行`npm install jitsu -g`，把jitsu应用安装到全局，在哪个文件下都可以运行就可以了。当然，还有其他云平台，Paas类型的还有：
+>	- [heroku](https://id.heroku.com/signup "注册heroku")
+>	- [openshift](https://www.openshift.com/)
+
 - [**注册Github帐号**](https://github.com/ "注册Github帐号") —— 点击链接过去注册即可，在用着Github?跳过这步骤吧。
 - 创建一个Node应用。
 
@@ -24,9 +25,9 @@ tags : [Node应用]
 
 3者联系可以列为以下3种：
 
-1. **Node应用 —> Nodejitsu** — 在本地，使用`jitsu deploy`命令行（如何安装jitsu? 参考“准备工作 1.注册云端帐号”）将可以部署到你的Nodejitsu帐号下，这个过程会提示你输入`yes`或`no`，或者其他信息，按指引输入即可。
-2. **Node应用 —> github** — 其实就是使用github托管Node应用项目，分享自己的项目也行。跟第1条是并列的。
-3. **Node应用 —> github —> Nodejitsu** — 如果第1，第2都是并列的操作，会增加deploy的成本，相当于一份本地源码，向两个分支提交代码。所以这联系链的意思是：像平常那样`push`本地代码到Github，然后代码也会同步到Nodejitsu，并自动重启该Node应用，而且是每次`push`都会重启。[codeship.io](www.codeship.io "注册或者登录codeship.io")就是连接Github与其他云端平台的中间平台，可以使用Github帐号登录。如何完成Github上Node应用到Nodejitsu之间的连接，请看介绍视频[How to deploy a node.js app from GitHub to Nodejitsu on Vimeo](http://vimeo.com/76988907 "Click and see the video").视频讲得比较详细、清晰。
+1. **Node应用 => Nodejitsu** — 在本地，使用`jitsu deploy`命令行（如何安装jitsu? 参考“准备工作 1.注册云端帐号”）将可以部署到你的Nodejitsu帐号下，这个过程会提示你输入`yes`或`no`，或者其他信息，按指引输入即可。
+2. **Node应用 => github** — 其实就是使用github托管Node应用项目，分享自己的项目也行。跟第1条是并列的。
+3. **Node应用 => github => Nodejitsu** — 如果第1，第2都是并列的操作，会增加deploy的成本，相当于一份本地源码，向两个分支提交代码。所以这联系链的意思是：像平常那样`push`本地代码到Github，然后代码也会同步到Nodejitsu，并自动重启该Node应用，而且是每次`push`都会重启。[codeship.io](www.codeship.io "注册或者登录codeship.io")就是连接Github与其他云端平台的中间平台，可以使用Github帐号登录。如何完成Github上Node应用到Nodejitsu之间的连接，请看介绍视频[How to deploy a node.js app from GitHub to Nodejitsu on Vimeo](http://vimeo.com/76988907 "Click and see the video").视频讲得比较详细、清晰。
 
 这3种联系的部署，不需要都要有，如果你又想push到Github，又要deploy到Nodejitsu，那我建议你部署第3种吧，有了第3种，前2种也就存在了。
 
@@ -35,6 +36,7 @@ tags : [Node应用]
 其实，一个有简单且内容 **xxx.js** 文件就是一个Node应用，只是这个Node应用功能很简单，能够做的东西十分有限，因此，需要安装相对应的Node模块、构建整个项目架构来拓展自己的Node应用。这也是我们会看到Node项目复杂目录结构，很多时候只是知道需要这些结构或者文件，而不知道为什么？
 
 我就以自己的创建的**helloworld**的Node web应用来说一下目录结构或者文件。项目是以MVC框架为导向的，正如你现在看到的项目结构，只有`view`层，但接下来还会有`controller`和`model`层，然后使用可以app.js来联合3层起来，这里说的是“可以”，因为发现这样子app.js会变得越来越庞大，可能导致后面难维护，解决方法可以是使用多一个，如combine.js来做联合逻辑。
+
 ### app.js ###
 
 下面是一些必要的配置：
