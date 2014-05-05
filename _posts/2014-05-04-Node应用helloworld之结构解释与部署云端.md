@@ -29,7 +29,7 @@ tags : [Node应用]
 
 2. **Node应用 => github** — 其实就是使用github托管Node应用项目，分享自己的项目也行。跟第1条是并列的。
 
-3. **Node应用 => github => Nodejitsu** — 如果第1，第2都是并列的操作，会增加deploy的成本，相当于一份本地源码，向两个分支提交代码。所以这联系链的意思是：像平常那样`push`本地代码到Github，然后代码也会同步到Nodejitsu，并自动重启该Node应用，而且是每次`push`都会重启。[codeship.io](www.codeship.io "注册或者登录codeship.io")就是连接Github与其他云端平台的中间平台，可以使用Github帐号登录。如何完成Github上Node应用到Nodejitsu之间的连接，请看介绍视频[How to deploy a node.js app from GitHub to Nodejitsu on Vimeo](http://vimeo.com/76988907 "Click and see the video").视频讲得比较详细、清晰。
+3. **Node应用 => github => Nodejitsu** — 如果第1，第2都是并列的操作，会增加deploy的成本，相当于一份本地源码，向两个分支提交代码。所以这联系链的意思是：像平常那样`push`本地代码到Github，然后代码也会同步到Nodejitsu，并自动重启该Node应用，而且是每次`push`都会重启。[codeship.io](https://www.codeship.io "注册或者登录codeship.io")就是连接Github与其他云端平台的中间平台，可以使用Github帐号登录。如何完成Github上Node应用到Nodejitsu之间的连接，请看介绍视频[How to deploy a node.js app from GitHub to Nodejitsu on Vimeo](http://vimeo.com/76988907 "Click and see the video").视频讲得比较详细、清晰。
 
 这3种联系的部署，不需要都要有，如果你又想push到Github，又要deploy到Nodejitsu，那我建议你部署第3种吧，有了第3种，前2种也就存在了。
 
