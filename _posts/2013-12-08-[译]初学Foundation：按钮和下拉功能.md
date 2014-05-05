@@ -12,9 +12,9 @@ tags : [Foundation入门]
 
 初学者初学Foundation程第六篇，将学习一下“按钮”、“下拉功能”和“清除”插件。
 
-![foundation-5-1](http://pigerla.com/assets/images/20131202/foundation-5-1.jpg) 
-
 <!--break-->
+
+![foundation-5-1](http://pigerla.com/assets/images/20131202/foundation-5-1.jpg) 
 
 ## 按钮 ##
 

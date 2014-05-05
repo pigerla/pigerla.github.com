@@ -12,11 +12,11 @@ tags : [Foundation入门]
 
 一个前端框架是否优秀，其中看该框架如何处理导航栏。初学Foundation，我们先来看几种形式用javascript工具实现效果的导航栏。我还会介绍另一种有益于你更好地成为Foundation开发者、很有用的工具。
 
+<!--break-->
+
 ## Section 插件 ##
 
 Foundation提供其中一个最好的javascript插件就是[Section](http://foundation.zurb.com/docs/components/section.html)：类似于`tabs`有选择性地，在同一时间内显示一块页面内容。Section主要以几种形式的导航栏出现，如手风琴式导航，tabs, 垂直和水平导航。
-
-<!--break-->
 
 ![foundation-3-section-1](http://pigerla.com/assets/images/20131116/foundation-3-section-1.png)
 

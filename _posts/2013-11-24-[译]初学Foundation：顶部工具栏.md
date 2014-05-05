@@ -12,9 +12,9 @@ tags : [Foundation入门]
 
 先看一下[Foundation](http://foundation.zurb.com/)首页的顶部工具栏，顶部工具栏包含很多内容，我们将进行内容分解来理解。
 
-![foundation-4-1](http://pigerla.com/assets/images/20131124/foundation-4-1.jpg)
-
 <!--break-->
+
+![foundation-4-1](http://pigerla.com/assets/images/20131124/foundation-4-1.jpg)
 
 ## 顶部工具栏，或者不用顶部工具栏 ##
 

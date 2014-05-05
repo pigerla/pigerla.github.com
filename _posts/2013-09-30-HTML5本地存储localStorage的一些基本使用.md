@@ -10,13 +10,15 @@ tags : [HTML5, localStorage, sessionStorage]
 
 HTML5本地存储API中的`localStorage`和`sessionStorage`在使用方法上是相同的，区别就是使用`sessionStorage`，在关闭页面后就会被清空记录，而`localStorage`则会一直保存着。
 
+<!--break-->
+
 接下来就以localStorage为例，会对此展开基本使用方法的介绍。
 
 ### localStorage.setItem(key,value) ###
 
 个人觉得`localStorage API`的使用方法简单易懂的，首先要知道，localStorage本地保存数据是以`(key,value)`（键值对）的形式来保存的。调用`setItem(key,value)`即可保存一个键值对数据。打开`chrome`的`Console`输入如下代码：
-<!--break-->
-{% highlight html %} 
+
+{% highlight html %}
 localStorage.setItem(8 , 24);
 localStorage.setItem("Spy","pigerla.com");
 localStorage.setItem("array",[1,2,3,4,5]);
