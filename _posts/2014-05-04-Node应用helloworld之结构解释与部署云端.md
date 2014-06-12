@@ -106,6 +106,14 @@ npm把模块安装到根目录的**node_modules**，Node通过require的方式�
 我的项目还不完整，后面还会不断地补充，到这里为止，你应该会使用github或者Nodejistu，打通了自己的Node应用云端流程；自己的Node应用可以运行在云端；对Node结构有进一步理解，我觉得有对Node结构的理解之后，就可以自由地创建自己的目录结构。
 
 
+
+> **后注**：
+
+
+
+> 经过一段时间使用Nodejistu，发现并不是完全免费的，只是试用大概一个月左右。但是！Nodejistu还算有点良心的是：永久免费支持一个托管在Github上的开源项目，换句话说，还是可以免费使用一个项目，前提是你的项目是开源且托管在Github的，点[Free for Open Source](https://opensource.jit.su/)进行申请即可。填完信息提交后，提示“很快”回复你的，其实是很慢的，大概都4到6天左右，需要耐心等候...
+
+
 ----------
 
 附上README.md链接：[https://github.com/pigerla/helloworld](https://github.com/pigerla/helloworld)
