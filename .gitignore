@@ -1,4 +1,5 @@
 _site/*
+_plugins/node_modules/*
 _theme_packages/*
 .idea/*
 
