@@ -10,7 +10,7 @@ RockMongo是一个用来管理mongodb的可视化工具，是用PHP编写的一�
 
 正如前面所说，安装工作大致分3个部分：安装apache和php环境，安装PHP对Mongodb的支持驱动，配置对Mongodb的支持和安装Rockmongo。
 
-<!--Break-->
+<!--break-->
 
 ## 安装apache和php环境
 
