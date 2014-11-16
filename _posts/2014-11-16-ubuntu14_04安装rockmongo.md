@@ -1,7 +1,7 @@
 ---
 layout: post
 category : 教程
-permalink : rockmongo/2014-11-16/how-to-install-rockmongodb-in-unbuntu14.04/
+permalink : rockmongo/2014-11-16/how-to-install-rockmongodb-in-unbuntu14_04/
 tagline: "Supporting tagline"
 tags : [mongodb , rockmongo]
 ---
