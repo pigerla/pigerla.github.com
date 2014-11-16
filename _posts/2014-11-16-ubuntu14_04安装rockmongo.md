@@ -8,7 +8,12 @@ tags : [mongodb , rockmongo]
 
 RockMongo是一个用来管理mongodb的可视化工具，是用PHP编写的一个web应用。此文章记录我在ubuntu14.04环境下安装rockmongo的过程步骤以及遇到的问题并解决，希望对你们有所帮助。
 
-正如前面所说，安装工作大致分3个部分：安装apache和php环境，安装PHP对Mongodb的支持驱动，配置对Mongodb的支持和安装Rockmongo。
+正如前面所说，安装工作大致分3个部分：
+
+* 安装apache和php环境;
+* 安装PHP对Mongodb的支持驱动;
+* 配置对Mongodb的支持;
+* 安装Rockmongo。
 
 <!--break-->
 
