@@ -30,7 +30,7 @@ tags : [mongodb , rockmongo , mongoHQ]
     admin,这也是默认配置。
     $i ++;
 
-更多配置看官方文档［
+*更多配置看官方文档[https://code.google.com/p/rock-php/wiki/configuration](https://code.google.com/p/rock-php/wiki/configuration)*
 
 重新来到Rockmongo的登录节目，选择自己命名的远程db昵称，然后输入帐号和密码都为**admin**,登录进去若没有问题，则连接mongoHQ成功；若连接报错如下：
 
