@@ -1,7 +1,7 @@
 ---
 layout: post
 category : 教程
-permalink : learning-sailsjs/2015-03-61/learning-polices/
+permalink : learning-sailsjs/2015-03-16/learning-polices/
 tagline: "Supporting tagline"
 tags : [sailsjs , polices]
 ---
